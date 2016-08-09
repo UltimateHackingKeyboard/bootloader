@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>led_demo_pflash_0000</name>
+	<comment/>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.freescale.processorexpert.core.expertprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.freescale.processorexpert.core.expertprojectnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+<linkedResources><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup_MK82F25615.S</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/devices/MK82F25615/startup/gcc/startup_MK82F25615.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/system_MK82F25615.c</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/devices/MK82F25615/startup/system_MK82F25615.c</locationURI></link><link><name>src/application</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/application/led_demo.c</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/src/led_demo.c</locationURI></link><link><name>link</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>link/MK82FN256xxx15_flash_0000.ld</name><type>1</type><locationURI>PARENT-3-PROJECT_LOC/common/linker/MK82F25615/gcc/MK82FN256xxx15_flash_0000.ld</locationURI></link><link><name>src/application</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/application/milliseconds_delay.c</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/src/milliseconds_delay.c</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup.c</name><type>1</type><locationURI>PARENT-7-PROJECT_LOC/src/startup/startup.c</locationURI></link></linkedResources></projectDescription>

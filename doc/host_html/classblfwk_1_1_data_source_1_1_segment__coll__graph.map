@@ -1,0 +1,4 @@
+<map id="blfwk::DataSource::Segment" name="blfwk::DataSource::Segment">
+<area shape="rect" id="node2" href="$classblfwk_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="101,5,228,32"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="179,102,302,129"/>
+</map>

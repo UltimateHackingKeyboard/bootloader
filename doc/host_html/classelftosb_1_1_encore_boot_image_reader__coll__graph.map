@@ -1,0 +1,12 @@
+<map id="elftosb::EncoreBootImageReader" name="elftosb::EncoreBootImageReader">
+<area shape="rect" id="node3" href="$classelftosb_1_1_encore_boot_image.html#structelftosb_1_1_encore_boot_image_1_1boot__command__t" title="Structure for a Piano bootloader command. " alt="" coords="359,5,529,47"/>
+<area shape="rect" id="node4" href="$class_a_e_s_key.html" title="AESKey\&lt; 128 \&gt;" alt="" coords="748,97,865,123"/>
+<area shape="rect" id="node5" href="$class_a_e_s_key_base.html" title="Base class for AESKey&lt;S&gt;. " alt="" coords="393,71,495,98"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="761,177,852,203"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="379,173,509,215"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="155,181,309,207"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="5,181,105,207"/>
+<area shape="rect" id="node11" href="$classelftosb_1_1_encore_boot_image.html#structelftosb_1_1_encore_boot_image_1_1boot__image__header__t" title="Header for the entire boot image. " alt="" coords="721,228,892,269"/>
+<area shape="rect" id="node12" href="$structelftosb_1_1version__t.html" title="Same version struct used for 3600 boot image. " alt="" coords="385,239,503,266"/>
+<area shape="rect" id="node14" href="$classelftosb_1_1_encore_boot_image.html#structelftosb_1_1_encore_boot_image_1_1section__header__t" title="Information about each section, held in the section table. " alt="" coords="359,293,529,335"/>
+</map>

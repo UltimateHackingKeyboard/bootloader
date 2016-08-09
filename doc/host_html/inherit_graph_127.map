@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_opt_iter.html" title="OptIter" alt="" coords="5,31,67,57"/>
+<area shape="rect" id="node2" href="$class_opt_istream_iter.html" title="OptIstreamIter" alt="" coords="115,5,219,32"/>
+<area shape="rect" id="node3" href="$class_opt_iter_rwd.html" title="OptIterRwd" alt="" coords="123,56,210,83"/>
+<area shape="rect" id="node4" href="$class_opt_argv_iter.html" title="OptArgvIter" alt="" coords="273,31,359,57"/>
+<area shape="rect" id="node5" href="$class_opt_str_tok_iter.html" title="OptStrTokIter" alt="" coords="267,81,365,108"/>
+</map>

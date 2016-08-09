@@ -1,0 +1,7 @@
+<map id="property_store_t" name="property_store_t">
+<area shape="rect" id="node2" href="$group__property.html#structbootloader__configuration__data__t" title="Format of bootloader configuration data on Flash. " alt="" coords="12,5,175,47"/>
+<area shape="rect" id="node3" href="$group__property.html#structreserved__region__t" title="Structure of a reserved regions entry. " alt="" coords="32,71,155,98"/>
+<area shape="rect" id="node4" href="$group__property.html#structunique__device__id__t" title="Structure of a unique device id. " alt="" coords="28,122,159,149"/>
+<area shape="rect" id="node5" href="$group__bl__core.html#unionstandard__version__t" title="Structure of version property. " alt="" coords="28,194,159,221"/>
+<area shape="rect" id="node6" href="$group__property.html#structexternal__memory__property__store__t" title="Exernal Memory attribute store. " alt="" coords="5,245,181,287"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="command_interface_t" name="command_interface_t">
+<area shape="rect" id="node2" href="$group__command.html#structcommand__processor__data__t" title="Command processor data format. " alt="" coords="174,95,361,121"/>
+<area shape="rect" id="node3" href="$group__command.html#structcommand__handler__entry__t" title="Format of command handler entry. " alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node4" href="$structcommand__processor__data__t_1_1_data_phase.html" title="DataPhase" alt="" coords="224,5,311,32"/>
+</map>

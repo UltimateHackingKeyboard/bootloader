@@ -1,0 +1,5 @@
+<map id="CKinetisFlashToolDlg" name="CKinetisFlashToolDlg">
+<area shape="rect" id="node3" href="$class_update_dlg.html" title="UpdateDlg class is the UI Dialog class for the Update tab page. " alt="" coords="22,81,105,108"/>
+<area shape="rect" id="node4" href="$class_config_dlg.html" title="ConfigDlg class is the UI Dialog class for the BCA utilities tab page. " alt="" coords="129,81,206,108"/>
+<area shape="rect" id="node5" href="$class_flash_dlg.html" title="FlashDlg class is the UI Dialog class for the Flash utilities tab page. " alt="" coords="260,81,334,108"/>
+</map>

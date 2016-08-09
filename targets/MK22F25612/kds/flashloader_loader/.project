@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>flashloader_loader</name>
+	<comment/>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.freescale.processorexpert.core.expertprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.freescale.processorexpert.core.expertprojectnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+<linkedResources><link><name>link</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>link/MK22FN256xxx12_flashloader_loader.ld</name><type>1</type><locationURI>PARENT-3-PROJECT_LOC/common/linker/kds/MK22F25612/MK22FN256xxx12_flashloader_loader.ld</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/crt0_gcc.S</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/src/startup/crt0_gcc.S</locationURI></link><link><name>src/memory/src</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/memory/src/pattern_fill_gcc.S</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/src/memory/src/pattern_fill_gcc.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup_MK22F25612.S</name><type>1</type><locationURI>PARENT-2-PROJECT_LOC/src/startup/gcc/startup_MK22F25612.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/system_MK22F25612.c</name><type>1</type><locationURI>PARENT-2-PROJECT_LOC/src/startup/system_MK22F25612.c</locationURI></link><link><name>MK22F25612</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>MK22F25612/bootloader_config.h</name><type>1</type><locationURI>PARENT-2-PROJECT_LOC/src/bootloader_config.h</locationURI></link><link><name>src/bootloader</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/bootloader/flashloader_image.h</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/src/bootloader/flashloader_image.h</locationURI></link><link><name>src/bootloader/src</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/bootloader/src/bl_flashloader.c</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/src/bootloader/src/bl_flashloader.c</locationURI></link><link><name>src/include</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/include/bootloader_common.h</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/src/include/bootloader_common.h</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup.c</name><type>1</type><locationURI>PARENT-4-PROJECT_LOC/src/startup/startup.c</locationURI></link></linkedResources></projectDescription>

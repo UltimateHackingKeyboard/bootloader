@@ -1,0 +1,4 @@
+<map id="blfwk::DataPacket::DataConsumer" name="blfwk::DataPacket::DataConsumer">
+<area shape="rect" id="node2" href="$classblfwk_1_1_data_packet_1_1_file_data_consumer.html" title="Write file data for data phase receive. " alt="" coords="5,95,140,136"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_data_packet_1_1_std_out_data_consumer.html" title="Print data for data phase receive. " alt="" coords="165,95,314,136"/>
+</map>

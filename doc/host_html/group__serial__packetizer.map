@@ -1,0 +1,13 @@
+<map id="Serial Packetizer" name="Serial Packetizer">
+<area shape="rect" id="node1" href="$group__uart__peripheral.html" title="UART Peripheral. " alt="" coords="236,65,355,92"/>
+<area shape="rect" id="node2" href="$group__host__peripherals.html" title="Peripheral support. " alt="" coords="252,116,339,143"/>
+<area shape="rect" id="node3" href="$group__bus__pal__peripheral.html" title="Bus Pal Peripheral. " alt="" coords="230,167,361,193"/>
+<area shape="rect" id="node4" href="$group__bus__pal.html" title="Bus Pal transport support. " alt="" coords="232,217,359,244"/>
+<area shape="rect" id="node5" href="$group__host__usb__hid__peripheral.html" title="USB&#45;HID Peripheral. " alt="" coords="227,268,363,295"/>
+<area shape="rect" id="node6" href="$group__host__updater.html" title="Updater application support. " alt="" coords="262,319,329,345"/>
+<area shape="rect" id="node7" href="$group__usb__hid__packetizer.html" title="USB&#45;HID Packet creation. " alt="" coords="225,369,365,396"/>
+<area shape="rect" id="node8" href="$group__blfwk.html" title="Host Bootloader components. " alt="" coords="204,420,387,447"/>
+<area shape="rect" id="node9" href="$group__host__error.html" title="Errors. " alt="" coords="270,471,321,497"/>
+<area shape="rect" id="node10" href="$group__host__commands.html" title="Command support. " alt="" coords="251,521,339,548"/>
+<area shape="rect" id="node11" href="$group__host__packetizers.html" title="Packet creation. " alt="" coords="250,5,341,32"/>
+</map>

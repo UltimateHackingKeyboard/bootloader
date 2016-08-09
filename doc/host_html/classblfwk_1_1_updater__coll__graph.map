@@ -1,0 +1,26 @@
+<map id="blfwk::Updater" name="blfwk::Updater">
+<area shape="rect" id="node2" href="$classblfwk_1_1_bootloader.html" title="Represents the host bootloader. " alt="" coords="1522,210,1643,237"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_packetizer.html" title="Interface class for packetization of commands and data. " alt="" coords="1191,173,1313,199"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_peripheral.html" title="Represents a peripheral. " alt="" coords="893,173,1010,199"/>
+<area shape="rect" id="node5" href="$group__qspi__driver.html#unionstandard__version__t" title="standard_version_t" alt="" coords="886,122,1017,149"/>
+<area shape="rect" id="node6" href="$group__logging.html#class_file_logger" title="Simple logger that writes to a file. " alt="" coords="1211,237,1293,263"/>
+<area shape="rect" id="node7" href="$group__logging.html#class_logger" title="Base logger class. " alt="" coords="921,274,982,301"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="385,223,465,250"/>
+<area shape="rect" id="node15" href="$classblfwk_1_1_source_file.html" title="Abstract base class for a source file containing executable code. " alt="" coords="1522,346,1643,373"/>
+<area shape="rect" id="node26" href="$structblfwk_1_1updater__enum__t.html" title="blfwk::updater_enum_t" alt="" coords="608,71,760,98"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="169,216,295,257"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="902,387,1001,414"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="616,377,752,419"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="359,377,492,419"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="155,417,309,443"/>
+<area shape="rect" id="node19" title="STL class. " alt="" coords="361,443,490,484"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="5,417,105,443"/>
+<area shape="rect" id="node16" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::ifstream \&gt;" alt="" coords="1165,390,1339,417"/>
+<area shape="rect" id="node17" title="STL class. " alt="" coords="904,438,999,465"/>
+<area shape="rect" id="node18" title="STL class. " alt="" coords="618,443,750,484"/>
+<area shape="rect" id="node20" href="$group__smart__pointer.html" title="smart_ptr\&lt; blfwk::Option\lContext \&gt;" alt="" coords="1170,468,1334,509"/>
+<area shape="rect" id="node21" href="$classblfwk_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="880,489,1023,515"/>
+<area shape="rect" id="node22" href="$classblfwk_1_1_progress.html" title="Contains the callback function for progress and abort phase. " alt="" coords="1527,261,1638,287"/>
+<area shape="rect" id="node23" href="$structblfwk_1_1updater__operation__t.html" title="blfwk::updater_operation_t" alt="" coords="1496,71,1669,98"/>
+<area shape="rect" id="node25" href="$structblfwk_1_1updater__task__t.html" title="blfwk::updater_task_t" alt="" coords="879,19,1024,46"/>
+</map>

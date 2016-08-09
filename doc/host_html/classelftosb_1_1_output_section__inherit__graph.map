@@ -1,0 +1,4 @@
+<map id="elftosb::OutputSection" name="elftosb::OutputSection">
+<area shape="rect" id="node2" href="$classelftosb_1_1_binary_data_section.html" title="A section of the output file that contains arbitrary binary data. " alt="" coords="5,87,181,114"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_operation_sequence_section.html" title="A section of the output that contains boot operations. " alt="" coords="206,80,389,121"/>
+</map>

@@ -1,0 +1,28 @@
+<map id="elftosb::ConversionController" name="elftosb::ConversionController">
+<area shape="rect" id="node2" href="$classelftosb_1_1_option_dictionary.html" title="Concrete implementation of OptionContext. " alt="" coords="1916,129,2080,155"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="901,161,1052,187"/>
+<area shape="rect" id="node15" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::OptionContext \&gt;" alt="" coords="1193,283,1320,324"/>
+<area shape="rect" id="node5" href="$structelftosb_1_1_option_dictionary_1_1_option_value.html" title="Information about one option&#39;s value. " alt="" coords="1175,5,1339,47"/>
+<area shape="rect" id="node6" href="$classelftosb_1_1_value.html" title="Abstract base class for values of arbitrary types. " alt="" coords="926,13,1027,39"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="1217,499,1297,526"/>
+<area shape="rect" id="node14" href="$classelftosb_1_1_source_file.html" title="Abstract base class for a source file containing executable code. " alt="" coords="1520,586,1651,613"/>
+<area shape="rect" id="node32" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::string \&gt;" alt="" coords="1713,473,1872,499"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="913,492,1040,533"/>
+<area shape="rect" id="node9" href="$classelftosb_1_1_eval_context_1_1_source_file_manager.html" title="Abstract interface for a manager of source files. " alt="" coords="1514,341,1657,383"/>
+<area shape="rect" id="node29" href="$classelftosb_1_1_eval_context.html" title="Context for evaluating AST tree and expressions. " alt="" coords="1929,414,2067,441"/>
+<area shape="rect" id="node11" href="$classelftosb_1_1_keyblob.html" title="Keyblob specification. " alt="" coords="1528,239,1643,266"/>
+<area shape="rect" id="node34" href="$classelftosb_1_1_output_section.html" title="Base class for data model of sections of the output file. " alt="" coords="1510,290,1661,317"/>
+<area shape="rect" id="node16" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::ifstream \&gt;" alt="" coords="1170,682,1343,709"/>
+<area shape="rect" id="node17" title="STL class. " alt="" coords="929,682,1024,709"/>
+<area shape="rect" id="node18" title="STL class. " alt="" coords="671,675,803,716"/>
+<area shape="rect" id="node19" title="STL class. " alt="" coords="425,675,555,716"/>
+<area shape="rect" id="node20" title="STL class. " alt="" coords="155,682,309,709"/>
+<area shape="rect" id="node21" title="STL class. " alt="" coords="5,682,105,709"/>
+<area shape="rect" id="node22" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::CommandFileASTNode \&gt;" alt="" coords="1909,736,2087,777"/>
+<area shape="rect" id="node23" href="$classelftosb_1_1_command_file_a_s_t_node.html" title="Root node for the entire file. " alt="" coords="1484,743,1687,770"/>
+<area shape="rect" id="node24" href="$classelftosb_1_1_a_s_t_node.html" title="The base class for all AST node classes. " alt="" coords="429,791,551,818"/>
+<area shape="rect" id="node27" href="$classelftosb_1_1_list_a_s_t_node.html" title="AST node that contains other AST nodes. " alt="" coords="905,834,1049,861"/>
+<area shape="rect" id="node25" href="$structelftosb_1_1token__loc__t.html" title="Token location in the source file. " alt="" coords="165,791,299,818"/>
+<area shape="rect" id="node26" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::ListASTNode \&gt;" alt="" coords="1193,827,1320,868"/>
+<area shape="rect" id="node31" href="$classelftosb_1_1_eval_context.html#structelftosb_1_1_eval_context_1_1variable__info__t" title="Information about a variable&#39;s value. " alt="" coords="1188,375,1325,416"/>
+</map>

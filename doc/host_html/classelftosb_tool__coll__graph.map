@@ -1,0 +1,34 @@
+<map id="elftosbTool" name="elftosbTool">
+<area shape="rect" id="node2" href="$group__smart__pointer.html" title="smart_ptr\&lt; EncoreBootImage\lReader \&gt;" alt="" coords="2251,389,2443,430"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_conversion_controller.html" title="Manages the entire elftosb file conversion process. " alt="" coords="2254,455,2441,482"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_option_dictionary.html" title="Concrete implementation of OptionContext. " alt="" coords="1911,267,2075,294"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="901,231,1052,258"/>
+<area shape="rect" id="node17" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::OptionContext \&gt;" alt="" coords="1193,308,1320,349"/>
+<area shape="rect" id="node7" href="$structelftosb_1_1_option_dictionary_1_1_option_value.html" title="Information about one option&#39;s value. " alt="" coords="1175,373,1339,414"/>
+<area shape="rect" id="node8" href="$classelftosb_1_1_value.html" title="Abstract base class for values of arbitrary types. " alt="" coords="926,380,1027,407"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="1217,574,1297,600"/>
+<area shape="rect" id="node16" href="$classelftosb_1_1_source_file.html" title="Abstract base class for a source file containing executable code. " alt="" coords="1520,416,1651,443"/>
+<area shape="rect" id="node34" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::string \&gt;" alt="" coords="1711,580,1869,607"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="913,566,1040,608"/>
+<area shape="rect" id="node11" href="$classelftosb_1_1_eval_context_1_1_source_file_manager.html" title="Abstract interface for a manager of source files. " alt="" coords="1514,710,1657,752"/>
+<area shape="rect" id="node31" href="$classelftosb_1_1_eval_context.html" title="Context for evaluating AST tree and expressions. " alt="" coords="1924,732,2061,759"/>
+<area shape="rect" id="node13" href="$classelftosb_1_1_keyblob.html" title="Keyblob specification. " alt="" coords="1528,155,1643,182"/>
+<area shape="rect" id="node36" href="$classelftosb_1_1_output_section.html" title="Base class for data model of sections of the output file. " alt="" coords="1510,308,1661,335"/>
+<area shape="rect" id="node18" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::ifstream \&gt;" alt="" coords="1170,439,1343,466"/>
+<area shape="rect" id="node19" title="STL class. " alt="" coords="929,439,1024,466"/>
+<area shape="rect" id="node20" title="STL class. " alt="" coords="671,432,803,473"/>
+<area shape="rect" id="node21" title="STL class. " alt="" coords="425,432,555,473"/>
+<area shape="rect" id="node22" title="STL class. " alt="" coords="155,439,309,466"/>
+<area shape="rect" id="node23" title="STL class. " alt="" coords="5,439,105,466"/>
+<area shape="rect" id="node24" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::CommandFileASTNode \&gt;" alt="" coords="1904,70,2081,112"/>
+<area shape="rect" id="node25" href="$classelftosb_1_1_command_file_a_s_t_node.html" title="Root node for the entire file. " alt="" coords="1484,78,1687,104"/>
+<area shape="rect" id="node26" href="$classelftosb_1_1_a_s_t_node.html" title="The base class for all AST node classes. " alt="" coords="429,44,551,71"/>
+<area shape="rect" id="node29" href="$classelftosb_1_1_list_a_s_t_node.html" title="AST node that contains other AST nodes. " alt="" coords="905,87,1049,114"/>
+<area shape="rect" id="node27" href="$structelftosb_1_1token__loc__t.html" title="Token location in the source file. " alt="" coords="165,44,299,71"/>
+<area shape="rect" id="node28" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::ListASTNode \&gt;" alt="" coords="1193,80,1320,121"/>
+<area shape="rect" id="node33" href="$classelftosb_1_1_eval_context.html#structelftosb_1_1_eval_context_1_1variable__info__t" title="Information about a variable&#39;s value. " alt="" coords="1188,776,1325,817"/>
+<area shape="rect" id="node38" href="$structelftosb_1_1version__t.html" title="Same version struct used for 3600 boot image. " alt="" coords="2288,670,2407,696"/>
+<area shape="rect" id="node39" href="$classelftosb_tool.html#structelftosb_tool_1_1_family_name_table_entry" title="A structure describing an entry in the table of chip family names. " alt="" coords="2249,721,2445,762"/>
+<area shape="rect" id="node40" href="$group__logging.html#class_stdout_logger" title="Simple logger that writes to stdout. " alt="" coords="2298,787,2397,814"/>
+<area shape="rect" id="node41" href="$group__logging.html#class_logger" title="Base logger class. " alt="" coords="1962,787,2023,814"/>
+</map>

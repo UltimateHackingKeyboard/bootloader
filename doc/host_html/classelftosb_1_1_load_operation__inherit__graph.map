@@ -1,0 +1,6 @@
+<map id="elftosb::LoadOperation" name="elftosb::LoadOperation">
+<area shape="rect" id="node3" href="$classelftosb_1_1_encrypt_operation.html" title="Operation to encrypt data for OTFAD. " alt="" coords="5,155,175,181"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_keywrap_operation.html" title="Operation to wrap and program keys. " alt="" coords="199,155,373,181"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_program_operation.html" title="Operation to program persistent bits. " alt="" coords="398,155,571,181"/>
+<area shape="rect" id="node2" href="$classelftosb_1_1_operation.html" title="Abstract base class for all boot operations. " alt="" coords="224,5,348,32"/>
+</map>

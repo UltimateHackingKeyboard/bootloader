@@ -1,0 +1,5 @@
+<map id="elftosb::EncoreBootImage::Section" name="elftosb::EncoreBootImage::Section">
+<area shape="rect" id="node3" href="$classelftosb_1_1_encore_boot_image_1_1_boot_section.html" title="A bootable section of an Encore boot image. " alt="" coords="5,184,176,225"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_encore_boot_image_1_1_data_section.html" title="A non&#45;bootable section of an Encore boot image. " alt="" coords="200,184,371,225"/>
+<area shape="rect" id="node2" href="$classelftosb_1_1_encore_boot_image_1_1_cipher_block_generator.html" title="Base class for objects that produce cipher blocks. " alt="" coords="103,5,273,47"/>
+</map>

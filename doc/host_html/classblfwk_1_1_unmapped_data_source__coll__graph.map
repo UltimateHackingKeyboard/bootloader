@@ -1,0 +1,6 @@
+<map id="blfwk::UnmappedDataSource" name="blfwk::UnmappedDataSource">
+<area shape="rect" id="node2" href="$classblfwk_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="31,5,157,32"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="27,102,150,129"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="175,95,309,136"/>
+<area shape="rect" id="node5" href="$group__smart__pointer.html" title="smart_array_ptr\&lt; uint8_t \&gt;" alt="" coords="334,102,510,129"/>
+</map>

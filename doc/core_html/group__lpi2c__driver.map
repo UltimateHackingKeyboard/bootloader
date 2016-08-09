@@ -1,0 +1,6 @@
+<map id="LPI2C Driver" name="LPI2C Driver">
+<area shape="rect" id="node2" href="$group__lpi2c__slave__driver.html" title="LPI2C Slave Driver" alt="" coords="168,5,296,32"/>
+<area shape="rect" id="node3" href="$group__lpi2c__slave__edma__driver.html" title="LPI2C Slave DMA Driver" alt="" coords="151,56,313,83"/>
+<area shape="rect" id="node4" href="$group__lpi2c__master__edma__driver.html" title="LPI2C Master DMA Driver" alt="" coords="147,107,317,133"/>
+<area shape="rect" id="node5" href="$group__lpi2c__master__driver.html" title="LPI2C Master Driver" alt="" coords="163,157,301,184"/>
+</map>

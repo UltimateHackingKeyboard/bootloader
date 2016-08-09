@@ -1,0 +1,8 @@
+<map id="usb_device_composite_struct_t" name="usb_device_composite_struct_t">
+<area shape="rect" id="node2" href="$structusb__hid__generic__struct__t.html" title="usb_hid_generic_struct_t" alt="" coords="5,288,172,315"/>
+<area shape="rect" id="node3" href="$group__usb__hid__peripheral.html#structusb__hid__packetizer__info__t" title="State information for the USB HID packetizer. " alt="" coords="21,184,156,225"/>
+<area shape="rect" id="node4" href="$structbl__hid__report__t.html" title="Structure of a bootloader HID report. " alt="" coords="35,95,142,121"/>
+<area shape="rect" id="node5" href="$structbl__hid__header__t.html" title="Structure of a bootloader HID header. " alt="" coords="32,5,145,32"/>
+<area shape="rect" id="node6" href="$structusb__msc__struct__t.html" title="usb_msc_struct_t" alt="" coords="196,288,323,315"/>
+<area shape="rect" id="node7" href="$structusb__msd__state__t.html" title="State information for the USB MSD peripheral. " alt="" coords="198,191,321,218"/>
+</map>

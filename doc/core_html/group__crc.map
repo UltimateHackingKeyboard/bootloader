@@ -1,0 +1,5 @@
+<map id="CRC" name="CRC">
+<area shape="rect" id="node2" href="$group__crc__driver.html" title="CRC driver" alt="" coords="103,5,185,32"/>
+<area shape="rect" id="node3" href="$group__crc16.html" title="16&#45;bit CRC " alt="" coords="113,56,175,83"/>
+<area shape="rect" id="node4" href="$group__crc32.html" title="32&#45;bit CRC " alt="" coords="113,107,175,133"/>
+</map>

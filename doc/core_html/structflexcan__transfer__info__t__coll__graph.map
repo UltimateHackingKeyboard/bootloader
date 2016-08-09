@@ -1,0 +1,5 @@
+<map id="flexcan_transfer_info_t" name="flexcan_transfer_info_t">
+<area shape="rect" id="node2" href="$group__flexcan__peripheral.html#structflexcan__data__info__t" title="FlexCAN data info from user. " alt="" coords="5,109,139,136"/>
+<area shape="rect" id="node3" href="$group__flexcan__peripheral.html#structflexcan__state__t" title="Internal driver state information. " alt="" coords="163,109,274,136"/>
+<area shape="rect" id="node4" href="$group__rtos__irq__sync.html#structsemaphore__t" title="semaphore_t" alt="" coords="170,5,267,32"/>
+</map>

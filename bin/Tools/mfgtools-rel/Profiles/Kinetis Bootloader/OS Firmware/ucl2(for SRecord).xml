@@ -1,0 +1,33 @@
+<!--
+* Copyright (C) 2010-2015, Freescale Semiconductor, Inc. All Rights Reserved.
+*
+* The CFG element contains a list of recognized usb devices.
+*  DEV elements provide a name, class, vid and pid for each device.
+*
+* Each LIST element contains a list of update instructions.
+*
+* Each CMD element contains one update instruction of attribute type.
+*  "find" - Waits for "timeout" seconds for the "body" device to connect.
+*  "blhost" - Executes a blhost command.
+-->
+
+
+<UCL>
+  <CFG>
+    <STATE name="BootStrap" dev="KBL-CDC" vid="1366" pid="0105"/>   <!--JLINK CDC-->
+    <STATE name="BootStrap" dev="KBL-CDC" vid="0d28" pid="0204"/>   <!--mBed CDC-->
+    <STATE name="BootStrap" dev="KBL-CDC" vid="1357" pid="0707"/>   <!--OpenSDK CDC-->
+    <STATE name="BootStrap" dev="KBL-CDC" vid="1357" pid="0089"/>   <!--OpenSDA CDC-->
+    <STATE name="BootStrap" dev="KBL-CDC" vid="1a86" pid="7523"/>   <!--CH340 CDC-->
+    <STATE name="BootStrap" dev="KBL-CDC" vid="067b" pid="2303"/>   <!--PL2303 CDC-->
+    <STATE name="BootStrap" dev="KBL-HID" vid="15A2" pid="0073"/>   <!--KBL USB-HID-->
+  </CFG>
+<!--
+  The following Lists are for Kinetis Bootloader chips
+-->
+<LIST name="Kinetis-bootloader" desc="Choose Flash as media">  
+    <CMD state="BootStrap" type="find" body="BootStrap" timeout="180"/>
+    <CMD state="BootStrap" type="blhost" body="flash-image \"Profiles\\Kinetis Bootloader\\OS Firmware\\files\\simple.srec\" erase">Flash Image</CMD>
+    <CMD state="BootStrap" type="blhost" body="Update Completed!">Done</CMD>    
+</LIST>
+</UCL>

@@ -1,0 +1,6 @@
+<map id="blfwk::Peripheral" name="blfwk::Peripheral">
+<area shape="rect" id="node2" href="$classblfwk_1_1_sim_peripheral.html" title="Peripheral that operates in the simulation space. " alt="" coords="5,80,145,107"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_uart_peripheral.html" title="Peripheral that talks to the target device over COM port hardware. " alt="" coords="170,80,311,107"/>
+<area shape="rect" id="node5" href="$classblfwk_1_1_usb_hid_peripheral.html" title="Represents a USB HID peripheral. " alt="" coords="336,80,495,107"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_bus_pal_uart_peripheral.html" title="Peripheral that talks to the target device over BusPal UART hardware. " alt="" coords="149,155,332,181"/>
+</map>

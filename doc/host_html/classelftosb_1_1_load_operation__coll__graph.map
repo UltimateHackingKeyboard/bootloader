@@ -1,0 +1,7 @@
+<map id="elftosb::LoadOperation" name="elftosb::LoadOperation">
+<area shape="rect" id="node2" href="$classelftosb_1_1_operation.html" title="Abstract base class for all boot operations. " alt="" coords="557,5,681,32"/>
+<area shape="rect" id="node3" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::DataSource \&gt;" alt="" coords="405,50,532,91"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="5,103,141,129"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="251,127,381,153"/>
+<area shape="rect" id="node6" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::DataTarget \&gt;" alt="" coords="556,119,683,161"/>
+</map>

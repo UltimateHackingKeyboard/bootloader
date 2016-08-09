@@ -1,0 +1,9 @@
+<map id="elftosb::PatternSource" name="elftosb::PatternSource">
+<area shape="rect" id="node2" href="$classelftosb_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="38,81,174,108"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="45,178,175,205"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="199,171,335,212"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_data_source_1_1_pattern_segment.html" title="This is a special type of segment containing a repeating pattern. " alt="" coords="199,275,335,316"/>
+<area shape="rect" id="node6" href="$classelftosb_1_1_sized_integer_value.html" title="Adds a word size attribute to IntegerValue. " alt="" coords="359,178,533,205"/>
+<area shape="rect" id="node7" href="$classelftosb_1_1_integer_value.html" title="32&#45;bit signed integer value. " alt="" coords="376,81,516,108"/>
+<area shape="rect" id="node8" href="$classelftosb_1_1_value.html" title="Abstract base class for values of arbitrary types. " alt="" coords="395,5,497,32"/>
+</map>

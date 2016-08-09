@@ -1,0 +1,25 @@
+var group__property_structbootloader__configuration__data__t =
+[
+    [ "bootFlags", "group__property.html#a816d8d0795b50193b6b8e067a420da3f", null ],
+    [ "canConfig1", "group__property.html#abb0fd0ee0b9f0e50903a9ca2c3862a83", null ],
+    [ "canConfig2", "group__property.html#ae199225a0a800345102a435e0d83ee6f", null ],
+    [ "canRxId", "group__property.html#a6889c380df6b643d81300cda2f310d69", null ],
+    [ "canTxId", "group__property.html#a1ab6d751b6dc108e893ebfbe5b865866", null ],
+    [ "clockDivider", "group__property.html#a8fd636a1a4cf13cd5dddc2639620150e", null ],
+    [ "clockFlags", "group__property.html#a439c3efc07a57164bfd8bae23905613b", null ],
+    [ "crcByteCount", "group__property.html#a66bae183afe72a2bfb4296479ae60b26", null ],
+    [ "crcExpectedValue", "group__property.html#aefb1b6651d6f16f3d1c8a2ee4e7f2631", null ],
+    [ "crcStartAddress", "group__property.html#a670e6beffbf25764aae6da2e42152455", null ],
+    [ "enabledPeripherals", "group__property.html#a94b54d54af4f5674b6bb77031aa4b868", null ],
+    [ "i2cSlaveAddress", "group__property.html#a7b02a6d4fec555531ed35231b7fbce91", null ],
+    [ "keyBlobPointer", "group__property.html#a21a52bbbfb590a6e3361cc8d6d08aca6", null ],
+    [ "mmcauConfigPointer", "group__property.html#a36201e0802661f58803850be757ff7e5", null ],
+    [ "pad0", "group__property.html#a0976e33e213bf38d277b829252a1ceaa", null ],
+    [ "pad1", "group__property.html#a25e2be7e403f0b3769563e679051c9d7", null ],
+    [ "peripheralDetectionTimeoutMs", "group__property.html#a0a29ceccabd881b20104bf6c0725eb5c", null ],
+    [ "qspi_config_block_pointer", "group__property.html#a0cd0aecced78273cc22ea6a628b9a14a", null ],
+    [ "tag", "group__property.html#a1c50fcd1195659821729f52af8f3bb7d", null ],
+    [ "usbPid", "group__property.html#ac5a9cbe623eea88acaf0b030dacec232", null ],
+    [ "usbStringsPointer", "group__property.html#aaf233f50768b1b03d9fd2bdaf110a0a0", null ],
+    [ "usbVid", "group__property.html#ab9e706caf8ba8873422add7c09da305d", null ]
+];

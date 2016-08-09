@@ -1,0 +1,4 @@
+<map id="blfwk::DataPacket" name="blfwk::DataPacket">
+<area shape="rect" id="node2" href="$classblfwk_1_1_data_packet_1_1_data_consumer.html" title="Abstract class to consume data from data phase. " alt="" coords="5,5,140,47"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_data_packet_1_1_data_producer.html" title="Abstract class to provide data for data phase. " alt="" coords="164,5,299,47"/>
+</map>

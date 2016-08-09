@@ -1,0 +1,5 @@
+<map id="command_frame_packet_t" name="command_frame_packet_t">
+<area shape="rect" id="node2" href="$group__packet.html#structframing__data__packet__t" title="Serial framing data packet. " alt="" coords="5,95,159,121"/>
+<area shape="rect" id="node3" href="$group__packet.html#structframing__header__t" title="Serial framing header. " alt="" coords="21,5,143,32"/>
+<area shape="rect" id="node4" href="$group__packet.html#structcommand__packet__t" title="Command packet format. " alt="" coords="183,95,319,121"/>
+</map>

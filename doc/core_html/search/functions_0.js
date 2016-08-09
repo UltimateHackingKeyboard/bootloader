@@ -1,0 +1,9 @@
+var searchData=
+[
+  ['aes_5fdecrypt',['aes_decrypt',['../group__aes__security.html#gaf25d367b958671d9bee4e16cc87386cb',1,'aes_decrypt(uint32_t *in, uint32_t *key, uint32_t *out):&#160;aes_security.c'],['../group__aes__security.html#gaf25d367b958671d9bee4e16cc87386cb',1,'aes_decrypt(uint32_t *in, uint32_t *key, uint32_t *out):&#160;aes_security.c']]],
+  ['aes_5fencrypt',['aes_encrypt',['../group__aes__security.html#ga7cc0d7eb12cfe64c6712381753c9c677',1,'aes_encrypt(uint32_t *in, uint32_t *key, uint32_t *out):&#160;aes_security.c'],['../group__aes__security.html#ga7cc0d7eb12cfe64c6712381753c9c677',1,'aes_encrypt(uint32_t *in, uint32_t *key, uint32_t *out):&#160;aes_security.c']]],
+  ['aes_5finit',['aes_init',['../group__aes__security.html#ga126d11611a246e256a919226e9f543cc',1,'aes_init(uint32_t *key):&#160;aes_security.c'],['../group__aes__security.html#ga126d11611a246e256a919226e9f543cc',1,'aes_init(uint32_t *key):&#160;aes_security.c']]],
+  ['autobaud_5fdeinit',['autobaud_deinit',['../group__autobaud.html#gaad6f3ab33fd53aac65780fd171b34097',1,'autobaud_deinit(uint32_t instance):&#160;autobaud_irq.c'],['../group__autobaud.html#gaad6f3ab33fd53aac65780fd171b34097',1,'autobaud_deinit(uint32_t instance):&#160;autobaud_irq.c']]],
+  ['autobaud_5fget_5frate',['autobaud_get_rate',['../group__autobaud.html#ga814a73ff1ee4debcfd541a4f2764e679',1,'autobaud_get_rate(uint32_t instance, uint32_t *rate):&#160;autobaud_irq.c'],['../group__autobaud.html#ga814a73ff1ee4debcfd541a4f2764e679',1,'autobaud_get_rate(uint32_t instance, uint32_t *rate):&#160;autobaud_irq.c']]],
+  ['autobaud_5finit',['autobaud_init',['../group__autobaud.html#ga364d95698e7d7b80a40465e5a5c50b44',1,'autobaud_init(uint32_t instance):&#160;autobaud_irq.c'],['../group__autobaud.html#ga364d95698e7d7b80a40465e5a5c50b44',1,'autobaud_init(uint32_t instance):&#160;autobaud_irq.c']]]
+];

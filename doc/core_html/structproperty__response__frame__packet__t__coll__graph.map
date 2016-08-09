@@ -1,0 +1,6 @@
+<map id="property_response_frame_packet_t" name="property_response_frame_packet_t">
+<area shape="rect" id="node2" href="$group__packet.html#structframing__data__packet__t" title="Serial framing data packet. " alt="" coords="5,102,159,129"/>
+<area shape="rect" id="node3" href="$group__packet.html#structframing__header__t" title="Serial framing header. " alt="" coords="21,5,143,32"/>
+<area shape="rect" id="node4" href="$group__packet.html#structget__property__response__packet__t" title="Get Property response packet format. " alt="" coords="183,95,338,136"/>
+<area shape="rect" id="node5" href="$group__packet.html#structcommand__packet__t" title="Command packet format. " alt="" coords="193,5,329,32"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="blfwk::Simulator" name="blfwk::Simulator">
+<area shape="rect" id="node2" href="$classblfwk_1_1_bootloader.html" title="Represents the host bootloader. " alt="" coords="1323,96,1445,123"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_packetizer.html" title="Interface class for packetization of commands and data. " alt="" coords="999,41,1120,68"/>
+<area shape="rect" id="node17" href="$classblfwk_1_1_sim_packetizer.html" title="Provides source and sink for packets in the simulator space. " alt="" coords="1312,35,1456,61"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_peripheral.html" title="Represents a peripheral. " alt="" coords="733,5,851,32"/>
+<area shape="rect" id="node5" href="$group__qspi__driver.html#unionstandard__version__t" title="standard_version_t" alt="" coords="727,56,857,83"/>
+<area shape="rect" id="node6" href="$group__logging.html#class_file_logger" title="Simple logger that writes to a file. " alt="" coords="1018,148,1101,175"/>
+<area shape="rect" id="node7" href="$group__logging.html#class_logger" title="Base logger class. " alt="" coords="761,120,823,147"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="752,253,832,280"/>
+<area shape="rect" id="node15" href="$classblfwk_1_1_options_store.html" title="Holds persistent options. " alt="" coords="1152,273,1287,300"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="546,246,673,287"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="743,171,841,197"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="541,163,677,205"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="359,163,492,205"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="155,171,309,197"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="5,171,105,197"/>
+<area shape="rect" id="node19" href="$classblfwk_1_1_memory_store.html" title="Represents target device memory as a disk file. " alt="" coords="991,347,1128,373"/>
+</map>

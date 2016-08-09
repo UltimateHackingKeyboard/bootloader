@@ -1,0 +1,43 @@
+# The sources block assigns file names to identifiers
+sources {
+    # SREC File path
+    mySrecFile = "led_demo_qspi_patch_rom.srec";
+    # QCB file path 
+    qspiConfigBlock = "qspi_config_block.bin";
+    # ROM patch
+    rom_patch = "ROM_QSPI_patch.bin";
+}
+
+# The section block specifies the sequence of boot commands to be written to
+# the SB file
+section (0) {
+
+    #1. Erase the internal flash
+    erase 0..0x3000;
+    
+    # Step 2 and Step 3 are optional if the QuadSPI is configured at startup.
+    #2. Load the QCB to RAM
+    load qspiConfigBlock > 0x20000000;
+    
+    #3. Configure QuadSPI with the QCB above
+    enable qspi 0x20000000;
+    
+    #4. Load patch to RAM
+    load rom_patch > 0x20000200;
+    
+    #5. Call patch to invoke ROM workaround
+    call 0x20000201 (0x20000000);
+    
+    #6. Erase the QuadSPI memory region before programming.
+    erase 0x68000000..0x68090000;
+    
+    #7.Load the QCB above to the address specified by qspiConfigBlockPointer in BCA
+    load qspiConfigBlock > 0x2000;
+    
+    #8. Load all the RO data from srec file, including vector table, flash config field and codes.
+    load mySrecFile;
+    
+    #9. Reset target.
+    reset;
+
+}

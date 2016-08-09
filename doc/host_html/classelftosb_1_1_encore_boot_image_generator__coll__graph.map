@@ -1,0 +1,7 @@
+<map id="elftosb::EncoreBootImageGenerator" name="elftosb::EncoreBootImageGenerator">
+<area shape="rect" id="node2" href="$classelftosb_1_1_boot_image_generator.html" title="Abstract base class for generators of specific boot image formats. " alt="" coords="1248,68,1435,95"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="5,65,156,92"/>
+<area shape="rect" id="node6" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::OptionContext \&gt;" alt="" coords="297,58,424,99"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_output_section.html" title="Base class for data model of sections of the output file. " alt="" coords="573,68,724,95"/>
+<area shape="rect" id="node7" href="$classelftosb_1_1_keyblob.html" title="Keyblob specification. " alt="" coords="748,123,863,149"/>
+</map>

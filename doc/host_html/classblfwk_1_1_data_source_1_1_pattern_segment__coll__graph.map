@@ -1,0 +1,8 @@
+<map id="blfwk::DataSource::PatternSegment" name="blfwk::DataSource::PatternSegment">
+<area shape="rect" id="node2" href="$classblfwk_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="5,171,140,212"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="101,81,228,108"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="165,178,287,205"/>
+<area shape="rect" id="node5" href="$classblfwk_1_1_sized_integer_value.html" title="Adds a word size attribute to IntegerValue. " alt="" coords="312,178,476,205"/>
+<area shape="rect" id="node6" href="$classblfwk_1_1_integer_value.html" title="32&#45;bit signed integer value. " alt="" coords="329,81,459,108"/>
+<area shape="rect" id="node7" href="$classblfwk_1_1_value.html" title="Abstract base class for values of arbitrary types. " alt="" coords="348,5,440,32"/>
+</map>

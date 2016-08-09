@@ -1,0 +1,15 @@
+<map id="blfwk::FlashImage" name="blfwk::FlashImage">
+<area shape="rect" id="node2" href="$classblfwk_1_1_command.html" title="Represents a bootloader command. " alt="" coords="1305,287,1424,314"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="750,235,830,262"/>
+<area shape="rect" id="node8" href="$classblfwk_1_1_source_file.html" title="Abstract base class for a source file containing executable code. " alt="" coords="1304,99,1425,126"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="540,228,667,269"/>
+<area shape="rect" id="node6" href="$classblfwk_1_1_progress.html" title="Contains the callback function for progress and abort phase. " alt="" coords="998,349,1109,375"/>
+<area shape="rect" id="node9" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::ifstream \&gt;" alt="" coords="967,71,1140,98"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="743,71,837,98"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="537,64,669,105"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="359,64,488,105"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="155,71,309,98"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="5,71,105,98"/>
+<area shape="rect" id="node15" href="$group__smart__pointer.html" title="smart_ptr\&lt; blfwk::Option\lContext \&gt;" alt="" coords="971,5,1135,47"/>
+<area shape="rect" id="node16" href="$classblfwk_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="719,13,861,39"/>
+</map>

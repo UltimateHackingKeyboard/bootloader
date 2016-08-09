@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>led_demo_tower_a000</name>
+	<comment/>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.freescale.processorexpert.core.expertprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.freescale.processorexpert.core.expertprojectnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+<linkedResources><link><name>link</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>link/MK64FN1M0xxx12_application_0xa000.ld</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/common/linker/kds/MK64F12/MK64FN1M0xxx12_application_0xa000.ld</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/crt0_gcc.S</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/src/startup/crt0_gcc.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup_MK64F12.S</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/MK64F12/src/startup/gcc/startup_MK64F12.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/system_MK64F12.c</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/MK64F12/src/startup/system_MK64F12.c</locationURI></link><link><name>k64f12</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>k64f12/main.c</name><type>1</type><locationURI>PARENT-2-PROJECT_LOC/src/main.c</locationURI></link><link><name>k64f12</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>k64f12/milliseconds_delay.c</name><type>1</type><locationURI>PARENT-3-PROJECT_LOC/src/milliseconds_delay.c</locationURI></link><link><name>k64f12/src</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>k64f12/src/bootloader_tree_stub.c</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/src/utilities/src/bootloader_tree_stub.c</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup.c</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/src/startup/startup.c</locationURI></link></linkedResources></projectDescription>

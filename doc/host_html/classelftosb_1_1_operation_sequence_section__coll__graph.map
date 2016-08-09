@@ -1,0 +1,7 @@
+<map id="elftosb::OperationSequenceSection" name="elftosb::OperationSequenceSection">
+<area shape="rect" id="node2" href="$classelftosb_1_1_output_section.html" title="Base class for data model of sections of the output file. " alt="" coords="5,199,156,225"/>
+<area shape="rect" id="node3" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::OptionContext \&gt;" alt="" coords="17,95,144,136"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_operation_sequence.html" title="Ordered sequence of operations. " alt="" coords="180,199,363,225"/>
+<area shape="rect" id="node7" href="$classelftosb_1_1_operation.html" title="Abstract base class for all boot operations. " alt="" coords="209,5,333,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="blfwk::GlobMatcher" name="blfwk::GlobMatcher">
+<area shape="rect" id="node3" href="$classblfwk_1_1_excludes_list_matcher.html" title="Matches strings using a series of include and exclude glob patterns. " alt="" coords="5,155,187,181"/>
+<area shape="rect" id="node2" href="$classblfwk_1_1_string_matcher.html" title="Abstract interface class used to select strings by name. " alt="" coords="26,5,166,32"/>
+</map>

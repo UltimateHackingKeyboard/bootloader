@@ -1,0 +1,15 @@
+<map id="elftosb::GHSSecInfo" name="elftosb::GHSSecInfo">
+<area shape="rect" id="node2" href="$class_st_e_l_f_file.html" title="Parser for Executable and Linking Format (ELF) files. " alt="" coords="1022,173,1102,199"/>
+<area shape="rect" id="node4" href="$struct_elf32___phdr.html" title="ELF program header. " alt="" coords="405,13,491,39"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="668,71,759,98"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="383,64,513,105"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="155,71,309,98"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="5,71,105,98"/>
+<area shape="rect" id="node9" href="$struct_elf32___ehdr.html" title="ELF file header. " alt="" coords="671,122,756,149"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="673,173,753,199"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="385,165,511,207"/>
+<area shape="rect" id="node13" href="$struct_elf32___shdr.html" title="ELF section header. " alt="" coords="405,231,491,258"/>
+<area shape="rect" id="node15" href="$class_st_e_l_f_file.html#struct_st_e_l_f_file_1_1_section_data_info" title="StELFFile::SectionDataInfo" alt="" coords="359,297,537,323"/>
+<area shape="rect" id="node16" href="$group__smart__pointer.html" title="smart_array_ptr\&lt; elftosb\l::GHSSecInfo::ghs_secinfo_t \&gt;" alt="" coords="961,289,1163,331"/>
+<area shape="rect" id="node17" href="$classelftosb_1_1_g_h_s_sec_info.html#structelftosb_1_1_g_h_s_sec_info_1_1ghs__secinfo__t" title="The structure of one .secinfo entry. " alt="" coords="644,355,783,396"/>
+</map>

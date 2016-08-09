@@ -1,0 +1,21 @@
+<map id="elftosb::ELFSourceFile" name="elftosb::ELFSourceFile">
+<area shape="rect" id="node2" href="$classelftosb_1_1_source_file.html" title="Abstract base class for a source file containing executable code. " alt="" coords="1578,86,1709,113"/>
+<area shape="rect" id="node3" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::OptionContext \&gt;" alt="" coords="1301,5,1427,47"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="949,13,1100,39"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="985,123,1065,150"/>
+<area shape="rect" id="node14" href="$class_st_e_l_f_file.html" title="Parser for Executable and Linking Format (ELF) files. " alt="" coords="1324,249,1404,275"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="691,117,818,159"/>
+<area shape="rect" id="node7" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::ifstream \&gt;" alt="" coords="1277,71,1451,98"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="977,69,1072,95"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="689,52,821,93"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="359,107,488,148"/>
+<area shape="rect" id="node11" title="STL class. " alt="" coords="155,159,309,186"/>
+<area shape="rect" id="node18" title="STL class. " alt="" coords="512,201,641,243"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="5,159,105,186"/>
+<area shape="rect" id="node13" href="$group__smart__pointer.html" title="smart_ptr\&lt; StELFFile \&gt;" alt="" coords="1564,146,1723,173"/>
+<area shape="rect" id="node16" href="$struct_elf32___phdr.html" title="ELF program header. " alt="" coords="712,247,797,274"/>
+<area shape="rect" id="node17" title="STL class. " alt="" coords="979,306,1070,333"/>
+<area shape="rect" id="node19" href="$struct_elf32___ehdr.html" title="ELF file header. " alt="" coords="982,357,1067,383"/>
+<area shape="rect" id="node21" href="$struct_elf32___shdr.html" title="ELF section header. " alt="" coords="712,415,797,442"/>
+<area shape="rect" id="node23" href="$class_st_e_l_f_file.html#struct_st_e_l_f_file_1_1_section_data_info" title="StELFFile::SectionDataInfo" alt="" coords="665,183,844,210"/>
+</map>

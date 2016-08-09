@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classelftosb_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node2" href="$classelftosb_1_1_option_dictionary.html" title="Concrete implementation of OptionContext. " alt="" coords="204,5,368,32"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_conversion_controller.html" title="Manages the entire elftosb file conversion process. " alt="" coords="416,35,603,61"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_eval_context_1_1_source_file_manager.html" title="Abstract interface for a manager of source files. " alt="" coords="215,57,357,98"/>
+</map>

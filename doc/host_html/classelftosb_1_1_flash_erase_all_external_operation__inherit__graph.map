@@ -1,0 +1,4 @@
+<map id="elftosb::FlashEraseAllExternalOperation" name="elftosb::FlashEraseAllExternalOperation">
+<area shape="rect" id="node2" href="$classelftosb_1_1_flash_erase_operation.html" title="Operation to erase flash memory. " alt="" coords="9,80,199,107"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_operation.html" title="Abstract base class for all boot operations. " alt="" coords="42,5,166,32"/>
+</map>

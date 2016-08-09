@@ -1,0 +1,6 @@
+<map id="blfwk::Value" name="blfwk::Value">
+<area shape="rect" id="node2" href="$classblfwk_1_1_binary_value.html" title="Binary object value of arbitrary size. " alt="" coords="5,80,135,107"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_integer_value.html" title="32&#45;bit signed integer value. " alt="" coords="159,80,290,107"/>
+<area shape="rect" id="node5" href="$classblfwk_1_1_string_value.html" title="String value. " alt="" coords="315,80,441,107"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_sized_integer_value.html" title="Adds a word size attribute to IntegerValue. " alt="" coords="143,155,307,181"/>
+</map>

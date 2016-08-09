@@ -1,0 +1,6 @@
+<map id="elftosb::DataSource::PatternSegment" name="elftosb::DataSource::PatternSegment">
+<area shape="rect" id="node3" href="$classelftosb_1_1_e_l_f_source_file_1_1_e_l_f_data_source_1_1_no_bits_segment.html" title="Represents one named #SHT_NOBITS section within the ELF file. " alt="" coords="373,5,595,47"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_memory_image_data_source_1_1_fill_segment.html" title="Segment corresponding to a fill region of the executable image. " alt="" coords="395,71,573,112"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_pattern_source.html" title="Data source for a repeating pattern. " alt="" coords="409,137,559,163"/>
+<area shape="rect" id="node2" href="$classelftosb_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="5,71,141,112"/>
+</map>

@@ -1,0 +1,28 @@
+var class_bootloader_config_dlg =
+[
+    [ "DECLARE_MESSAGE_MAP", "class_bootloader_config_dlg.html#aaaf2734fbd1e1ab116b8976458d0fd03", null ],
+    [ "DoDataExchange", "class_bootloader_config_dlg.html#aa37938899a47b7a55ff976e42af860aa", null ],
+    [ "LoadBootloaderConfigureArea", "class_bootloader_config_dlg.html#a4a237bf2d37f68e07e2feac3b85eb728", null ],
+    [ "OnBnClickedButtonConfigCancel", "class_bootloader_config_dlg.html#ac2925a4abe027e78412f92fca7596003", null ],
+    [ "OnBnClickedButtonConfigGenerate", "class_bootloader_config_dlg.html#a1da70d5095a5d751b6758d14042b5f8c", null ],
+    [ "OnBnClickedButtonConfigOk", "class_bootloader_config_dlg.html#a850c03ecf05afd231611610a038ba521", null ],
+    [ "OnBnClickedCheckCanrxid", "class_bootloader_config_dlg.html#acc5adbb956cd83a742f5395bec9e062e", null ],
+    [ "OnBnClickedCheckCanspeed", "class_bootloader_config_dlg.html#ae9ffb2eb5e30edf6da680641d8714e82", null ],
+    [ "OnBnClickedCheckCantxid", "class_bootloader_config_dlg.html#a97ba8f12229f6b47d23fd72056dcbc0c", null ],
+    [ "OnBnClickedCheckCrc", "class_bootloader_config_dlg.html#aedc3ec35342d064449df05cc35f154d2", null ],
+    [ "OnBnClickedCheckDisableHighspeed", "class_bootloader_config_dlg.html#a7f8082c92abeba373ff8a1998855bd24", null ],
+    [ "OnBnClickedCheckI2cslaveAddress", "class_bootloader_config_dlg.html#a5050384c86eaa95a07724b791246588e", null ],
+    [ "OnBnClickedCheckMmcauPointer", "class_bootloader_config_dlg.html#ae878c6a6837260e38ca9bb3c8087ab5c", null ],
+    [ "OnBnClickedCheckOtfadPointer", "class_bootloader_config_dlg.html#a37a414340605d646463c97e3d1c09afa", null ],
+    [ "OnBnClickedCheckPid", "class_bootloader_config_dlg.html#a5846d4161f38be8a6a8a2fa869de95d6", null ],
+    [ "OnBnClickedCheckQspiPointer", "class_bootloader_config_dlg.html#ab4f28081544c9fa011bd279c8be32412", null ],
+    [ "OnBnClickedCheckTimeout", "class_bootloader_config_dlg.html#a832c84d339060d99469834c6ff232d8f", null ],
+    [ "OnBnClickedCheckUsbstringPointer", "class_bootloader_config_dlg.html#ab97a774d077aedd7f68b7eec82c3582e", null ],
+    [ "OnBnClickedCheckVid", "class_bootloader_config_dlg.html#a25e38e32de4fa6afb373d8656846cb4a", null ],
+    [ "OnBnClickedRadioSpeedindex", "class_bootloader_config_dlg.html#adf72372748ab1c7744ff718369c112be", null ],
+    [ "OnBnClickedReload", "class_bootloader_config_dlg.html#a4b104147c57994add28e22e1f7bc2ed6", null ],
+    [ "OnInitDialog", "class_bootloader_config_dlg.html#a44764eb65bb1b6bfe273d3372ef71aaa", null ],
+    [ "SaveBootloaderConfigureArea", "class_bootloader_config_dlg.html#a335089782656985ce8d27934ac0a750c", null ],
+    [ "m_cFile", "class_bootloader_config_dlg.html#aaf5b1d95c70dd3474af99418e0018b7c", null ],
+    [ "m_config", "class_bootloader_config_dlg.html#a101d215008ed94f4bdf58f6dd7881b89", null ]
+];

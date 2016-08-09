@@ -1,0 +1,8 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node2" href="$class_bootloader_config_dlg.html" title="BootloaderConfigDlg class is the UI Dialog class for the bootloader configuration page..." alt="" coords="140,5,279,32"/>
+<area shape="rect" id="node3" href="$class_c_about_dlg.html" title="CAboutDlg" alt="" coords="167,56,251,83"/>
+<area shape="rect" id="node4" href="$class_c_kinetis_flash_tool_dlg.html" title="CKinetisFlashToolDlg class is the UI Dialog class for the main page. " alt="" coords="136,107,283,133"/>
+<area shape="rect" id="node5" href="$class_config_dlg.html" title="ConfigDlg class is the UI Dialog class for the BCA utilities tab page. " alt="" coords="171,157,248,184"/>
+<area shape="rect" id="node6" href="$class_flash_dlg.html" title="FlashDlg class is the UI Dialog class for the Flash utilities tab page. " alt="" coords="173,208,246,235"/>
+<area shape="rect" id="node7" href="$class_update_dlg.html" title="UpdateDlg class is the UI Dialog class for the Update tab page. " alt="" coords="168,259,251,285"/>
+</map>

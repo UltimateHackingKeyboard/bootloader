@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classblfwk_1_1_string_matcher.html" title="Abstract interface class used to select strings by name. " alt="" coords="5,56,145,83"/>
+<area shape="rect" id="node2" href="$classblfwk_1_1_fixed_matcher.html" title="Simple string matcher that compares against a fixed value. " alt="" coords="203,5,341,32"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_glob_matcher.html" title="This class uses glob pattern matching to match strings. " alt="" coords="205,56,339,83"/>
+<area shape="rect" id="node5" href="$classblfwk_1_1_wildcard_matcher.html" title="String matcher subclass that matches all test strings. " alt="" coords="193,107,351,133"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_excludes_list_matcher.html" title="Matches strings using a series of include and exclude glob patterns. " alt="" coords="399,56,580,83"/>
+</map>

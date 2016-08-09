@@ -1,0 +1,10 @@
+<map id="Bootloader" name="Bootloader">
+<area shape="rect" id="node1" href="$group__peripherals.html" title="Peripheral interfaces. " alt="" coords="145,5,289,32"/>
+<area shape="rect" id="node2" href="$group__command.html" title="API for the command handler. " alt="" coords="152,56,281,83"/>
+<area shape="rect" id="node3" href="$group__flashloader.html" title="Flashloader support. " alt="" coords="172,107,261,133"/>
+<area shape="rect" id="node4" href="$group__app__crc__check.html" title="Application CRC check API. " alt="" coords="137,157,296,184"/>
+<area shape="rect" id="node5" href="$group__bl__hw.html" title="Hardware management APIs. " alt="" coords="145,208,288,235"/>
+<area shape="rect" id="node6" href="$group__context.html" title="Bootloader context and API structures. " alt="" coords="183,259,250,285"/>
+<area shape="rect" id="node7" href="$group__bl__core.html" title="Core bootloader functionality. " alt="" coords="159,309,274,336"/>
+<area shape="rect" id="node8" href="$group__peripheral.html" title="API for peripheral interfaces. " alt="" coords="150,360,283,387"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="blfwk::PatternSource" name="blfwk::PatternSource">
+<area shape="rect" id="node2" href="$classblfwk_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="40,81,167,108"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="43,178,166,205"/>
+<area shape="rect" id="node5" href="$classblfwk_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="191,171,325,212"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_data_source_1_1_pattern_segment.html" title="This is a special type of segment containing a repeating pattern. " alt="" coords="191,275,325,316"/>
+<area shape="rect" id="node6" href="$classblfwk_1_1_sized_integer_value.html" title="Adds a word size attribute to IntegerValue. " alt="" coords="349,178,513,205"/>
+<area shape="rect" id="node7" href="$classblfwk_1_1_integer_value.html" title="32&#45;bit signed integer value. " alt="" coords="366,81,497,108"/>
+<area shape="rect" id="node8" href="$classblfwk_1_1_value.html" title="Abstract base class for values of arbitrary types. " alt="" coords="385,5,477,32"/>
+</map>

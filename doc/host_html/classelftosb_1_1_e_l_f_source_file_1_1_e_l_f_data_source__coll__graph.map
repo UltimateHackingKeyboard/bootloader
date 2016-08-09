@@ -1,0 +1,16 @@
+<map id="elftosb::ELFSourceFile::ELFDataSource" name="elftosb::ELFSourceFile::ELFDataSource">
+<area shape="rect" id="node2" href="$classelftosb_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="380,22,516,49"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="652,19,783,46"/>
+<area shape="rect" id="node19" href="$classelftosb_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="649,79,785,120"/>
+<area shape="rect" id="node4" href="$class_st_e_l_f_file.html" title="Parser for Executable and Linking Format (ELF) files. " alt="" coords="1007,261,1087,287"/>
+<area shape="rect" id="node6" href="$struct_elf32___phdr.html" title="ELF program header. " alt="" coords="405,151,491,178"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="672,210,763,237"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="383,203,513,244"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="155,210,309,237"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="5,210,105,237"/>
+<area shape="rect" id="node11" href="$struct_elf32___ehdr.html" title="ELF file header. " alt="" coords="675,261,760,287"/>
+<area shape="rect" id="node12" title="STL class. " alt="" coords="677,311,757,338"/>
+<area shape="rect" id="node13" title="STL class. " alt="" coords="385,304,511,345"/>
+<area shape="rect" id="node15" href="$struct_elf32___shdr.html" title="ELF section header. " alt="" coords="405,370,491,397"/>
+<area shape="rect" id="node17" href="$class_st_e_l_f_file.html#struct_st_e_l_f_file_1_1_section_data_info" title="StELFFile::SectionDataInfo" alt="" coords="359,435,537,462"/>
+</map>

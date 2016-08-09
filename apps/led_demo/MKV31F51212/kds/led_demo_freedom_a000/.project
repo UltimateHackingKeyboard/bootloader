@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>led_demo_freedom_a000</name>
+	<comment/>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.freescale.processorexpert.core.expertprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.freescale.processorexpert.core.expertprojectnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+<linkedResources><link><name>link</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>link/MKV31F512xxx12_application_0xa000.ld</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/common/linker/kds/MKV31F51212/MKV31F512xxx12_application_0xa000.ld</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/crt0_gcc.S</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/src/startup/crt0_gcc.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup_MKV31F51212.S</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/MKV31F51212/src/startup/gcc/startup_MKV31F51212.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/system_MKV31F51212.c</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/MKV31F51212/src/startup/system_MKV31F51212.c</locationURI></link><link><name>MKV31F51212</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>MKV31F51212/main.c</name><type>1</type><locationURI>PARENT-2-PROJECT_LOC/src/main.c</locationURI></link><link><name>MKV31F51212</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>MKV31F51212/milliseconds_delay.c</name><type>1</type><locationURI>PARENT-3-PROJECT_LOC/src/milliseconds_delay.c</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup.c</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/src/startup/startup.c</locationURI></link></linkedResources></projectDescription>

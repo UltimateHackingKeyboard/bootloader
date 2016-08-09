@@ -1,0 +1,4 @@
+<map id="blfwk::UartPeripheral" name="blfwk::UartPeripheral">
+<area shape="rect" id="node3" href="$classblfwk_1_1_bus_pal_uart_peripheral.html" title="Peripheral that talks to the target device over BusPal UART hardware. " alt="" coords="5,155,188,181"/>
+<area shape="rect" id="node2" href="$classblfwk_1_1_peripheral.html" title="Represents a peripheral. " alt="" coords="38,5,155,32"/>
+</map>

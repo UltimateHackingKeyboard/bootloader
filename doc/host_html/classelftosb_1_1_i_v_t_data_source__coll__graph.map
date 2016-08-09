@@ -1,0 +1,5 @@
+<map id="elftosb::IVTDataSource" name="elftosb::IVTDataSource">
+<area shape="rect" id="node2" href="$classelftosb_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="107,5,243,32"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="104,102,235,129"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="259,95,395,136"/>
+</map>

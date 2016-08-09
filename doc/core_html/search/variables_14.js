@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['uniquedeviceid',['UniqueDeviceId',['../group__property.html#af14cd3769bf7a3223740fc63723fd75d',1,'property_store_t']]],
+  ['unlock_5fcmd_5faddress_5foffset',['unlock_cmd_address_offset',['../group__qspi__driver.html#a6d5f834a07140ca6f0d9539cc5e905fb',1,'qspi_config_t']]],
+  ['upperaddress',['upperAddress',['../group__i2c.html#a959e9269b2e7e83f1c4aebac870bf822',1,'i2c_slave_config_t']]],
+  ['usbpid',['usbPid',['../group__property.html#ac5a9cbe623eea88acaf0b030dacec232',1,'bootloader_configuration_data_t']]],
+  ['usbstringspointer',['usbStringsPointer',['../group__property.html#aaf233f50768b1b03d9fd2bdaf110a0a0',1,'bootloader_configuration_data_t']]],
+  ['usbvid',['usbVid',['../group__property.html#ab9e706caf8ba8873422add7c09da305d',1,'bootloader_configuration_data_t']]],
+  ['userdata',['userData',['../group__dspi__driver.html#a2e294dd14122c554baa0665072b4ca7a',1,'_dspi_master_handle::userData()'],['../group__dspi__driver.html#a2e294dd14122c554baa0665072b4ca7a',1,'_dspi_slave_handle::userData()'],['../group__flexcan.html#a2e294dd14122c554baa0665072b4ca7a',1,'_flexcan_handle::userData()'],['../group__i2c.html#a2e294dd14122c554baa0665072b4ca7a',1,'_i2c_master_handle::userData()'],['../group__i2c.html#a2e294dd14122c554baa0665072b4ca7a',1,'_i2c_slave_handle::userData()'],['../group__lpi2c__master__driver.html#a2e294dd14122c554baa0665072b4ca7a',1,'_lpi2c_master_handle::userData()'],['../group__lpi2c__slave__driver.html#a2e294dd14122c554baa0665072b4ca7a',1,'_lpi2c_slave_handle::userData()'],['../group__lpsci.html#a2e294dd14122c554baa0665072b4ca7a',1,'_lpsci_handle::userData()'],['../group__lpspi__driver.html#a2e294dd14122c554baa0665072b4ca7a',1,'_lpspi_master_handle::userData()'],['../group__lpspi__driver.html#a2e294dd14122c554baa0665072b4ca7a',1,'_lpspi_slave_handle::userData()'],['../group__lpuart.html#a2e294dd14122c554baa0665072b4ca7a',1,'_lpuart_handle::userData()'],['../group__spi.html#a2e294dd14122c554baa0665072b4ca7a',1,'_spi_master_handle::userData()'],['../group__uart.html#a2e294dd14122c554baa0665072b4ca7a',1,'_uart_handle::userData()']]]
+];

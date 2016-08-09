@@ -1,0 +1,8 @@
+<map id="Bootloader" name="Bootloader">
+<area shape="rect" id="node3" href="$class_bootloader.html#struct_bootloader_1_1_flash_firmware_option" title="FlashFirmwareOption struct contains information for an update progress. " alt="" coords="414,57,591,98"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="181,92,261,119"/>
+<area shape="rect" id="node6" href="$class_bootloader.html#struct_bootloader_1_1_program_once_option" title="ProgramOnceOption struct contains information for a program IFR progress. " alt="" coords="397,123,608,149"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="5,85,132,126"/>
+<area shape="rect" id="node7" href="$class_bootloader.html#struct_bootloader_1_1_target_information" title="TargetInformation struct contains devices information. " alt="" coords="407,173,598,200"/>
+<area shape="rect" id="node8" href="$class_bootloader.html#struct_bootloader_1_1_erase_option" title="EraseOption struct contains information for an erase progress. " alt="" coords="421,224,585,251"/>
+</map>

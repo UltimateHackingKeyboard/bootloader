@@ -1,0 +1,13 @@
+<map id="blfwk::BinarySourceFile" name="blfwk::BinarySourceFile">
+<area shape="rect" id="node2" href="$classblfwk_1_1_source_file.html" title="Abstract base class for a source file containing executable code. " alt="" coords="159,547,280,573"/>
+<area shape="rect" id="node3" title="STL class. " alt="" coords="29,450,109,477"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="5,339,132,380"/>
+<area shape="rect" id="node5" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::ifstream \&gt;" alt="" coords="133,450,306,477"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="172,346,267,373"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="153,248,285,289"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="155,157,284,199"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="142,81,297,108"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="169,5,269,32"/>
+<area shape="rect" id="node11" href="$group__smart__pointer.html" title="smart_ptr\&lt; blfwk::Option\lContext \&gt;" alt="" coords="331,443,495,484"/>
+<area shape="rect" id="node12" href="$classblfwk_1_1_option_context.html" title="Pure abstract interface class to a table of options. " alt="" coords="341,346,484,373"/>
+</map>

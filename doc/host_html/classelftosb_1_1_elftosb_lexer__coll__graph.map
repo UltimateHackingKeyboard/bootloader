@@ -1,0 +1,19 @@
+<map id="elftosb::ElftosbLexer" name="elftosb::ElftosbLexer">
+<area shape="rect" id="node2" href="$classyy_flex_lexer.html" title="yyFlexLexer" alt="" coords="1155,88,1249,115"/>
+<area shape="rect" id="node3" href="$class_flex_lexer.html" title="FlexLexer" alt="" coords="850,5,929,32"/>
+<area shape="rect" id="node4" href="$classostream.html" title="ostream" alt="" coords="855,56,924,83"/>
+<area shape="rect" id="node5" href="$structyy__buffer__state.html" title="YY_BUFFER_STATE" alt="" coords="816,107,963,133"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="562,107,653,133"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="359,99,488,141"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="155,107,309,133"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="5,107,105,133"/>
+<area shape="rect" id="node10" href="$union_y_y_s_t_y_p_e.html" title="YYSTYPE" alt="" coords="1161,265,1243,292"/>
+<area shape="rect" id="node11" href="$classelftosb_1_1_sized_integer_value.html" title="Adds a word size attribute to IntegerValue. " alt="" coords="803,180,976,207"/>
+<area shape="rect" id="node12" href="$classelftosb_1_1_integer_value.html" title="32&#45;bit signed integer value. " alt="" coords="537,177,677,204"/>
+<area shape="rect" id="node13" href="$classelftosb_1_1_value.html" title="Abstract base class for values of arbitrary types. " alt="" coords="373,177,474,204"/>
+<area shape="rect" id="node14" title="STL class. " alt="" coords="849,232,929,259"/>
+<area shape="rect" id="node15" title="STL class. " alt="" coords="544,229,671,270"/>
+<area shape="rect" id="node16" href="$class_blob.html" title="Manages a binary object of arbitrary length. " alt="" coords="865,372,913,399"/>
+<area shape="rect" id="node17" href="$classelftosb_1_1_a_s_t_node.html" title="The base class for all AST node classes. " alt="" coords="828,321,951,348"/>
+<area shape="rect" id="node18" href="$structelftosb_1_1token__loc__t.html" title="Token location in the source file. " alt="" coords="540,393,675,420"/>
+</map>

@@ -1,0 +1,40 @@
+# The sources block assigns file names to identifiers
+sources {
+    # SREC File path
+    mySrecFile = "boot_to_qspi_alias_memory_rom.srec";
+    # QCB file path 
+    qspiConfigBlock = "qspi_config_block.bin";
+    # Alias QSPI image file path
+    myBinFile = "led_demo_qspi_alias_rom.bin";
+}
+
+# The section block specifies the sequence of boot commands to be written to
+# the SB file
+section (0) {
+
+    #1. Erase the vector table and flash config field.
+    erase 0..0x800;
+    
+    # Step 2 and Step 3 are optional if the QuadSPI is configured at startup.
+    #2. Load the QCB to RAM
+    load qspiConfigBlock > 0x20000000;
+    
+    #3. Configure QuadSPI with the QCB above
+    enable qspi 0x20000000;
+    
+    #4. Erase the QuadSPI memory region before programming.
+    erase 0x68000000..0x68004000;
+    
+    #5.Load the QCB above to the start address of QuadSPI memory
+    load qspiConfigBlock > 0x68000000;
+    
+    #. Load all boot_to_qspi_alias_memory applcation
+    load mySrecFile;
+    
+    #7. Load Alias QSPI image
+    load myBinFile > 0x68001000;
+    
+    #8. Reset target.
+    reset;
+
+}

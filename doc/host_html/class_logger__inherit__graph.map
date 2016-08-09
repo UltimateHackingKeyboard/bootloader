@@ -1,0 +1,4 @@
+<map id="Logger" name="Logger">
+<area shape="rect" id="node2" href="$group__logging.html#class_file_logger" title="Simple logger that writes to a file. " alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$group__logging.html#class_stdout_logger" title="Simple logger that writes to stdout. " alt="" coords="112,80,211,107"/>
+</map>

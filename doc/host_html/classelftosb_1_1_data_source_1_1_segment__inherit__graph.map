@@ -1,0 +1,10 @@
+<map id="elftosb::DataSource::Segment" name="elftosb::DataSource::Segment">
+<area shape="rect" id="node2" href="$classelftosb_1_1_data_source_1_1_pattern_segment.html" title="This is a special type of segment containing a repeating pattern. " alt="" coords="237,71,373,112"/>
+<area shape="rect" id="node6" href="$classelftosb_1_1_e_l_f_source_file_1_1_e_l_f_data_source_1_1_prog_bits_segment.html" title="Represents one named #SHT_PROGBITS section within the ELF file. " alt="" coords="189,136,421,177"/>
+<area shape="rect" id="node7" href="$classelftosb_1_1_i_v_t_data_source.html" title="Data source for an IVT structure used by HAB4. " alt="" coords="228,202,383,229"/>
+<area shape="rect" id="node8" href="$classelftosb_1_1_memory_image_data_source_1_1_text_segment.html" title="Segment corresponding to a text region of the executable image. " alt="" coords="217,253,394,295"/>
+<area shape="rect" id="node9" href="$classelftosb_1_1_unmapped_data_source.html" title="Data source for data that is not memory mapped (has no natural address). " alt="" coords="206,319,405,346"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_e_l_f_source_file_1_1_e_l_f_data_source_1_1_no_bits_segment.html" title="Represents one named #SHT_NOBITS section within the ELF file. " alt="" coords="469,5,691,47"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_memory_image_data_source_1_1_fill_segment.html" title="Segment corresponding to a fill region of the executable image. " alt="" coords="491,71,669,112"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_pattern_source.html" title="Data source for a repeating pattern. " alt="" coords="505,137,655,163"/>
+</map>

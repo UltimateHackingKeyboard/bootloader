@@ -1,0 +1,7 @@
+<map id="elftosb::ExcludesListMatcher" name="elftosb::ExcludesListMatcher">
+<area shape="rect" id="node2" href="$classelftosb_1_1_glob_matcher.html" title="This class uses glob pattern matching to match strings. " alt="" coords="9,193,151,219"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_string_matcher.html" title="Abstract interface class used to select strings by name. " alt="" coords="5,96,155,123"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="204,96,284,123"/>
+<area shape="rect" id="node7" href="$classelftosb_1_1_excludes_list_matcher.html#structelftosb_1_1_excludes_list_matcher_1_1glob__list__item__t" title="Information about one glob pattern entry in a match list. " alt="" coords="175,185,366,227"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="181,5,307,47"/>
+</map>

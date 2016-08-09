@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>led_demo_freedom_0000</name>
+	<comment/>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.freescale.processorexpert.core.expertprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.freescale.processorexpert.core.expertprojectnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+<linkedResources><link><name>link</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>link/MKL82Z128xxx7_application_0x0000.ld</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/common/linker/kds/MKL82Z7/MKL82Z128xxx7_application_0x0000.ld</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/crt0_gcc.S</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/src/startup/crt0_gcc.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup_MKL82Z7.S</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/MKL82Z7/src/startup/gcc/startup_MKL82Z7.S</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/system_MKL82Z7.c</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/targets/MKL82Z7/src/startup/system_MKL82Z7.c</locationURI></link><link><name>MKL82Z7</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>MKL82Z7/main.c</name><type>1</type><locationURI>PARENT-2-PROJECT_LOC/src/main.c</locationURI></link><link><name>MKL82Z7</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>MKL82Z7/milliseconds_delay.c</name><type>1</type><locationURI>PARENT-3-PROJECT_LOC/src/milliseconds_delay.c</locationURI></link><link><name>src/startup</name><type>2</type><locationURI>virtual:/virtual</locationURI></link><link><name>src/startup/startup.c</name><type>1</type><locationURI>PARENT-5-PROJECT_LOC/src/startup/startup.c</locationURI></link></linkedResources></projectDescription>

@@ -1,0 +1,4 @@
+<map id="elftosb::ELFSourceFile::ELFDataSource::NoBitsSegment" name="elftosb::ELFSourceFile::ELFDataSource::NoBitsSegment">
+<area shape="rect" id="node2" href="$classelftosb_1_1_data_source_1_1_pattern_segment.html" title="This is a special type of segment containing a repeating pattern. " alt="" coords="48,95,184,136"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="48,5,184,47"/>
+</map>

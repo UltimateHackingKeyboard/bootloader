@@ -1,0 +1,4 @@
+<map id="serial_framing_packet_t" name="serial_framing_packet_t">
+<area shape="rect" id="node2" href="$group__packet.html#structframing__data__packet__t" title="Serial framing data packet. " alt="" coords="8,95,161,121"/>
+<area shape="rect" id="node3" href="$group__packet.html#structframing__header__t" title="Serial framing header. " alt="" coords="24,5,145,32"/>
+</map>

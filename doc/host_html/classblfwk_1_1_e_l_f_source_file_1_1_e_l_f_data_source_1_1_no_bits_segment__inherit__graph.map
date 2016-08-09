@@ -1,0 +1,4 @@
+<map id="blfwk::ELFSourceFile::ELFDataSource::NoBitsSegment" name="blfwk::ELFSourceFile::ELFDataSource::NoBitsSegment">
+<area shape="rect" id="node2" href="$classblfwk_1_1_data_source_1_1_pattern_segment.html" title="This is a special type of segment containing a repeating pattern. " alt="" coords="49,95,183,136"/>
+<area shape="rect" id="node3" href="$classblfwk_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="49,5,183,47"/>
+</map>

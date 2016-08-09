@@ -1,0 +1,4 @@
+<map id="elftosb::DataTarget" name="elftosb::DataTarget">
+<area shape="rect" id="node2" href="$classelftosb_1_1_constant_data_target.html" title="Target with a constant values for the addresses. " alt="" coords="5,80,188,107"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_natural_data_target.html" title="Target address that is the &quot;natural&quot; location of whatever the source data is. " alt="" coords="212,80,384,107"/>
+</map>

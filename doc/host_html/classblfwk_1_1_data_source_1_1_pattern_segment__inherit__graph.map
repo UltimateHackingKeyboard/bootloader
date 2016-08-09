@@ -1,0 +1,6 @@
+<map id="blfwk::DataSource::PatternSegment" name="blfwk::DataSource::PatternSegment">
+<area shape="rect" id="node3" href="$classblfwk_1_1_e_l_f_source_file_1_1_e_l_f_data_source_1_1_no_bits_segment.html" title="Represents one named #SHT_NOBITS section within the ELF file. " alt="" coords="371,5,592,47"/>
+<area shape="rect" id="node4" href="$classblfwk_1_1_memory_image_data_source_1_1_fill_segment.html" title="Segment corresponding to a fill region of the executable image. " alt="" coords="377,71,586,112"/>
+<area shape="rect" id="node5" href="$classblfwk_1_1_pattern_source.html" title="Data source for a repeating pattern. " alt="" coords="410,137,553,163"/>
+<area shape="rect" id="node2" href="$classblfwk_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="5,71,140,112"/>
+</map>

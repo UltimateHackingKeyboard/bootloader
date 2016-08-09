@@ -1,0 +1,6 @@
+<map id="BlHost" name="BlHost">
+<area shape="rect" id="node2" href="$group__logging.html#class_stdout_logger" title="Simple logger that writes to stdout. " alt="" coords="5,185,104,212"/>
+<area shape="rect" id="node3" href="$group__logging.html#class_logger" title="Base logger class. " alt="" coords="24,96,85,123"/>
+<area shape="rect" id="node4" title="STL class. " alt="" coords="168,96,248,123"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="145,5,271,47"/>
+</map>

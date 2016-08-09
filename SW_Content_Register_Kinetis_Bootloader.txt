@@ -1,0 +1,94 @@
+Release Name: Kinetis Bootloader
+Version: 2.0.0
+
+Package - Kinetis         Filename: FSL_Kinetis_Bootloader_2.0.0.zip
+Bootloader
+
+KSDK Peripheral Drivers   Description: Peripheral drivers are designed for the
+                          most common use cases identified for the underlying 
+                          hardware block.                              
+                          Author: Freescale                                 
+                          version: 2.x.x                                    
+                          License: Open Source - BSD-3-Clause               
+                          Format: source code                                
+                          Location: Kinetis_Bootloader/src/drivers                  
+
+CMSIS Core header files   Description: Industry-standard header files distributes
+                          by ARM for cortex-M cores                   
+                          Author: ARM                                       
+                          version: 4.3 (CMSIS Download 4.5)                 
+                          License: Open Source - BSD-3-Clause               
+                          Format: source code                               
+                          URL: http://silver.arm.com                        
+                          Location: Kinetis_Bootloader/src/platform/CMSIS/Include                       
+
+USB                       Description: Freescale USB stack. This is a version of
+                          the USB stack that has been integrated with the Kinetis 
+                          SDK.                                   
+                          Author: Freescale                                 
+                          version: 1.0.0                                    
+                          License: Open Source - BSD-3-Clause               
+                          Format: source code                               
+                          Location: Kinetis_Bootloader/src/usb                    
+
+Bootloader Source         Description: Software drivers for
+                          Bootloaders and Flashloaders
+                          Author: FSL
+                          License: Open Source - BSD-3-Clause
+                          Format: source code
+                          Location: Kinetis_Bootloader/src
+
+Host tools - Serial       Description: Windows Serial peripheral support
+support                   Author: Bus Pirate Project
+                          License: Open Source - CC0-1.0 (Creative Commons Zero)
+                          URL: http://code.google.com/p/the-bus-pirate/
+                          Format: source code
+                          Location: 
+                          Kinetis_Bootloader/src/blfwk/serial.h, 
+                          Kinetis_Bootloader/src/blfwk/src/serial.c
+
+Host tools - USB HID      Description: Windows USB HID support
+support                   Author: HIDAPI
+                          License: Open Source - BSD-3-Clause
+                          URL: http://github.com/signal11/hidapi
+                          Format: source code
+                          Location: 
+                          Kinetis_Bootloader/src/blfwk/hidapi.h, 
+                          Kinetis_Bootloader/src/blfwk/src/hid-*.c
+
+Host tools - JSON support Description: Windows JSON support
+                          Author: JSONCPP
+                          License: Open Source - MIT
+                          Format: source code
+                          Location: 
+                          Kinetis_Bootloader/src/blfwk/json.h, 
+                          Kinetis_Bootloader/src/blfwk/src/jsoncpp.cpp
+
+Host tools - options      Description: Command line parsing utility
+support                   Author: bradapp@enteract.com
+                          License: Open Source - MIT
+                          URL: 
+                          http://www.bradapp.com
+                          Format: source code
+                          Location: 
+                          Kinetis_Bootloader/src/blfwk/options.h, 
+                          Kinetis_Bootloader/src/blfwk/src/options.cpp
+
+Bootloader Source,        Description: C++ interface to the Vincent Rijmen's Rijndael block cipher
+Host Source - blfwk.lib   Author: Szymon Stefanek (stefanek@tin.it)
+                          License: Public Domain
+                          URL:
+                          http://www.pragmaware.net/software/rijndael/index.php
+                          Format: source code
+                          Location:
+                          Kinetis_Bootloader/src/blfwk/rijndael.h,
+                          Kinetis_Bootloader/src/blfwk/src/rijndael.cpp
+
+Utility Source - elf.py   Description: Python implementation of an ELF file reader.
+                          Author: Chris Liechti (cliechti@gmx.net)
+                          License: BSD License
+                          URL:
+                          http://bazaar.launchpad.net/~zsquareplusc/python-msp430-tools/trunk/view/head:/msp430/memory/elf.py
+                          Format: source code
+                          Location:
+                          Kinetis_Bootloader/bin/elf.py

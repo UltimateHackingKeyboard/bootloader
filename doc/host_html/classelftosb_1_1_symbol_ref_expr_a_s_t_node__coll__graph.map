@@ -1,0 +1,9 @@
+<map id="elftosb::SymbolRefExprASTNode" name="elftosb::SymbolRefExprASTNode">
+<area shape="rect" id="node2" href="$classelftosb_1_1_expr_a_s_t_node.html" title="Abstract base class for all expression AST nodes. " alt="" coords="196,289,347,316"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_a_s_t_node.html" title="The base class for all AST node classes. " alt="" coords="201,185,323,212"/>
+<area shape="rect" id="node5" href="$classelftosb_1_1_symbol_a_s_t_node.html" title="elftosb::SymbolASTNode" alt="" coords="5,289,172,316"/>
+<area shape="rect" id="node4" href="$structelftosb_1_1token__loc__t.html" title="Token location in the source file. " alt="" coords="195,96,329,123"/>
+<area shape="rect" id="node6" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::string \&gt;" alt="" coords="9,185,168,212"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="49,96,129,123"/>
+<area shape="rect" id="node8" title="STL class. " alt="" coords="25,5,152,47"/>
+</map>

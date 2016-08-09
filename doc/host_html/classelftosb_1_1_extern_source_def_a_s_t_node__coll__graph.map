@@ -1,0 +1,12 @@
+<map id="elftosb::ExternSourceDefASTNode" name="elftosb::ExternSourceDefASTNode">
+<area shape="rect" id="node2" href="$classelftosb_1_1_source_def_a_s_t_node.html" title="elftosb::SourceDefASTNode" alt="" coords="1328,89,1511,115"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_a_s_t_node.html" title="The base class for all AST node classes. " alt="" coords="256,143,379,170"/>
+<area shape="rect" id="node6" href="$classelftosb_1_1_list_a_s_t_node.html" title="AST node that contains other AST nodes. " alt="" coords="725,130,869,157"/>
+<area shape="rect" id="node12" href="$classelftosb_1_1_expr_a_s_t_node.html" title="Abstract base class for all expression AST nodes. " alt="" coords="485,223,636,250"/>
+<area shape="rect" id="node4" href="$structelftosb_1_1token__loc__t.html" title="Token location in the source file. " alt="" coords="5,143,140,170"/>
+<area shape="rect" id="node5" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::ListASTNode \&gt;" alt="" coords="1060,123,1187,164"/>
+<area shape="rect" id="node8" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::string \&gt;" alt="" coords="1044,19,1203,46"/>
+<area shape="rect" id="node9" title="STL class. " alt="" coords="757,14,837,41"/>
+<area shape="rect" id="node10" title="STL class. " alt="" coords="497,5,624,47"/>
+<area shape="rect" id="node11" href="$group__smart__pointer.html" title="smart_ptr\&lt; elftosb\l::ExprASTNode \&gt;" alt="" coords="893,205,1020,247"/>
+</map>

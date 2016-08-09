@@ -1,0 +1,5 @@
+<map id="elftosb::PatternSource" name="elftosb::PatternSource">
+<area shape="rect" id="node2" href="$classelftosb_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="5,102,141,129"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_data_source_1_1_pattern_segment.html" title="This is a special type of segment containing a repeating pattern. " alt="" coords="165,95,301,136"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_data_source_1_1_segment.html" title="Discrete, contiguous part of the source&#39;s data. " alt="" coords="165,5,301,47"/>
+</map>

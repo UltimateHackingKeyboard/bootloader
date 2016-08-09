@@ -1,0 +1,8 @@
+<map id="elftosb::MessageStatementASTNode" name="elftosb::MessageStatementASTNode">
+<area shape="rect" id="node2" href="$classelftosb_1_1_statement_a_s_t_node.html" title="elftosb::StatementASTNode" alt="" coords="5,199,188,225"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_a_s_t_node.html" title="The base class for all AST node classes. " alt="" coords="27,109,150,136"/>
+<area shape="rect" id="node4" href="$structelftosb_1_1token__loc__t.html" title="Token location in the source file. " alt="" coords="21,13,156,39"/>
+<area shape="rect" id="node5" href="$group__smart__pointer.html" title="smart_ptr\&lt; std::string \&gt;" alt="" coords="213,199,372,225"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="257,109,337,136"/>
+<area shape="rect" id="node7" title="STL class. " alt="" coords="233,5,360,47"/>
+</map>

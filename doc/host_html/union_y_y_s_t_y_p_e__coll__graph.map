@@ -1,0 +1,10 @@
+<map id="YYSTYPE" name="YYSTYPE">
+<area shape="rect" id="node2" href="$classelftosb_1_1_sized_integer_value.html" title="Adds a word size attribute to IntegerValue. " alt="" coords="5,185,179,212"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_integer_value.html" title="32&#45;bit signed integer value. " alt="" coords="18,89,158,115"/>
+<area shape="rect" id="node4" href="$classelftosb_1_1_value.html" title="Abstract base class for values of arbitrary types. " alt="" coords="37,5,139,32"/>
+<area shape="rect" id="node5" title="STL class. " alt="" coords="204,185,284,212"/>
+<area shape="rect" id="node6" title="STL class. " alt="" coords="182,81,309,123"/>
+<area shape="rect" id="node7" href="$class_blob.html" title="Manages a binary object of arbitrary length. " alt="" coords="308,185,356,212"/>
+<area shape="rect" id="node8" href="$classelftosb_1_1_a_s_t_node.html" title="The base class for all AST node classes. " alt="" coords="380,185,503,212"/>
+<area shape="rect" id="node9" href="$structelftosb_1_1token__loc__t.html" title="Token location in the source file. " alt="" coords="374,89,509,115"/>
+</map>

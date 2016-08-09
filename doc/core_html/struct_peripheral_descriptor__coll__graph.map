@@ -1,0 +1,5 @@
+<map id="peripheral_descriptor_t" name="peripheral_descriptor_t">
+<area shape="rect" id="node2" href="$group__peripheral.html#structperipheral__byte__inteface__t" title="Peripheral abstract byte interface. " alt="" coords="14,5,187,32"/>
+<area shape="rect" id="node3" href="$group__peripheral.html#structperipheral__control__interface__t" title="Peripheral control interface. " alt="" coords="39,57,163,98"/>
+<area shape="rect" id="node4" href="$group__peripheral.html#structperipheral__packet__interface__t" title="Peripheral Packet Interface. " alt="" coords="5,123,196,149"/>
+</map>

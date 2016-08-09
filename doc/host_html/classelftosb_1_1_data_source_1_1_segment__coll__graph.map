@@ -1,0 +1,4 @@
+<map id="elftosb::DataSource::Segment" name="elftosb::DataSource::Segment">
+<area shape="rect" id="node2" href="$classelftosb_1_1_data_source.html" title="Abstract base class for data sources. " alt="" coords="97,5,233,32"/>
+<area shape="rect" id="node3" href="$classelftosb_1_1_data_target.html" title="Abstract base class for the target address or range of data. " alt="" coords="179,102,309,129"/>
+</map>
