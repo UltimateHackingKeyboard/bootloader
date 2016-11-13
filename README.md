@@ -2,7 +2,7 @@
 
 This repository contains the bootloader of the [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/) based on [NXP Kinetis Bootloader](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/kinetis-cortex-m-mcus/kinetis-symbols-footprints-and-models/kinetis-bootloader:KBOOT) v2.0
 
-The project actually being modified is in KBOOT\targets\MK22F51212\. 
+The project actually being modified is in bootloader\targets\MK22F51212\. The project can be compiled and debugged using Kinetis Design Studio 3.0 (Free IDE based on Eclipse provided by NXP) 
 
 To test the bootloader a binary properly configured has been added to the root folder of this repository. This binary is based on the UHK_Right Firmware project. 
 To understand these modifications and apply them to the current version of the UHK Right firmware, follow the procedure in "Adapting UHK Project to KBOOT.docx" (Work in progress...)
