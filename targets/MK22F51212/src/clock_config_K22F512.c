@@ -28,6 +28,8 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+/* SGF Original KBOOT file modified */
+
 #include "bootloader_common.h"
 #include "bootloader/bl_context.h"
 #include "property/property.h"
@@ -177,6 +179,11 @@ void configure_clocks(bootloader_clock_option_t option)
 
         // Restore clock divider
         SIM->CLKDIV1 = s_defaultClockDivider;
+
+        //SGF fix the issue when jumping to UHK app
+        SIM->SOPT1 = 0x80000000;  // Just restoring the value out of reset.
+        SIM->SOPT2 = 0x00001000; // Just restoring the value out of reset.
+        //end SGF
     }
 
 #endif // BL_TARGET_FLASH

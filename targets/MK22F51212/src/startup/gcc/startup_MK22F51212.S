@@ -37,6 +37,9 @@
 /*****************************************************************************/
 /* Version: GCC for ARM Embedded Processors                                  */
 /*****************************************************************************/
+
+/* SGF Original KBOOT file modified */
+
     .syntax unified
     .arch armv7-m
 
@@ -289,21 +292,26 @@ __isr_vector:
     
 #ifdef BL_HAS_BOOTLOADER_CONFIG
 
+/* SGF  Take into account that this isnt having any effect. The BL config that will be used in runtime is stored in the application that will be programmed
+		by the bootloader. The real BCA (BL config area) will be stored at 0xc3c0. This gives the advantage that we can customize the behavior of the BL in
+		the future by just updating this area in the new binary of UHK_Right that will be programmed via the bootloader.
+*/
 //__bootloaderConfigurationArea ; 0x3c0
 //    .long     'kcfg'        // [00:03] tag - Tag value used to validate the bootloader configuration data. Must be set to 'kcfg'
-        .long     0x6766636b
+        .long     0x6766636b /* Be aware of endianness SGF */
         .long     0xFFFFFFFF    // [04:07] crcStartAddress
         .long     0xFFFFFFFF    // [08:0b] crcByteCount
         .long     0xFFFFFFFF    // [0c:0f] crcExpectedValue
-        .byte     0xFF          // [10:10] enabledPeripherals
+        .byte     0x10          // [10:10] enabledPeripherals /* SGF Bit 4 corresponds to USB HID */
         .byte     0xFF          // [11:11] i2cSlaveAddress
         .short    5000          // [12:13] peripheralDetectionTimeoutMs - Timeout in milliseconds for peripheral detection before jumping to application code
-        .short     0xFFFF       // [14:15] usbVid
-        .short     0xFFFF       // [16:17] usbPid
+        .short    0xFFFF       // [14:15] usbVid
+        .short    0xFFFF       // [16:17] usbPid
         .long     0xFFFFFFFF    // [18:1b] usbStringsPointer
-        .byte     0xFF          // [1c:1c] clockFlags - High Speed and other clock options
+        .byte     0x00          // [1c:1c] clockFlags - High Speed and other clock options /* SGF Set to 0 to enable 48 MHz CLK and USB HID */
         .byte     0xFF          // [1d:1d] clockDivider - One's complement of clock divider, zero divider is divide by 1
-        .short     0xFFFF        // [1e:1f] reserved
+        .byte     0xFF			// [1e] SGF Direct boot in 1's complement. FE means direct boot enabled.
+        .byte 	  0xFF          // [1f] reserved
         // Fill to align with flash configuration field.
         .long     0xFFFFFFFF
         .long     0xFFFFFFFF
@@ -335,7 +343,7 @@ __isr_vector:
 
     .size    __isr_vector, . - __isr_vector
 
-/* Flash Configuration */
+/* Flash Configuration */ /* SGF TODO add Flash protection for the Bootloader sectors. */
     .section .FlashConfig, "a"
     .long 0xFFFFFFFF
     .long 0xFFFFFFFF

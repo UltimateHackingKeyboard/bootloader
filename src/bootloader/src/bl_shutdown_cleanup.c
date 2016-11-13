@@ -27,6 +27,9 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
+
+/* SGF Original KBOOT file modified */
+
 #if !defined(BOOTLOADER_HOST)
 #include "fsl_device_registers.h"
 #include "utilities/fsl_rtos_abstraction.h"
@@ -96,7 +99,7 @@ void shutdown_cleanup(shutdown_type_t shutdown)
         SCB->VTOR = kDefaultVectorTableAddress;
 
         // Restore clock to default before leaving bootloader.
-        configure_clocks(kClockOption_ExitBootloader);
+        //configure_clocks(kClockOption_ExitBootloader); 	// SGF We have disabled this call in order to reach the UHK FW with a valid Clock Config.
 
         // De-initialize hardware such as disabling port clock gate
         deinit_hardware();

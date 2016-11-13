@@ -30,6 +30,8 @@
 #ifndef __BOOTLOADER_CONFIG_H__
 #define __BOOTLOADER_CONFIG_H__
 
+/* SGF Original KBOOT file modified */
+
 ////////////////////////////////////////////////////////////////////////////////
 // Definitions
 ////////////////////////////////////////////////////////////////////////////////
@@ -42,21 +44,21 @@
 //@{
 
 #if !defined(BL_CONFIG_SCUART)
-#define BL_CONFIG_SCUART (1)
+#define BL_CONFIG_SCUART (0)
 #endif
 #if !defined(BL_CONFIG_I2C)
-#define BL_CONFIG_I2C (1)
+#define BL_CONFIG_I2C (0)
 #endif
 #if !defined(BL_CONFIG_DSPI)
-#define BL_CONFIG_DSPI (1)
+#define BL_CONFIG_DSPI (0)
 #endif
 #if !defined(BL_CONFIG_USB_HID)
 #define BL_CONFIG_USB_HID (1)
 #endif
 #if !defined(BL_CONFIG_USB_MSC)
-#define BL_CONFIG_USB_MSC (1)
+#define BL_CONFIG_USB_MSC (0)
 #endif
-
+#define BL_TARGET_FLASH (1)
 //@}
 
 #if !defined(BL_TARGET_FLASH) && !defined(BL_TARGET_RAM)
@@ -101,7 +103,7 @@
 
 // The bootloader will check this address for the application vector table upon startup.
 #if !defined(BL_APP_VECTOR_TABLE_ADDRESS)
-#define BL_APP_VECTOR_TABLE_ADDRESS 0xa000
+#define BL_APP_VECTOR_TABLE_ADDRESS 0xc000 /* SGF Change vector table entry point for application*/
 #endif
 
 /* Serial Port Info */

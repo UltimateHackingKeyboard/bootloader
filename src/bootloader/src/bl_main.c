@@ -28,6 +28,8 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+/* SGF Original KBOOT file modified */
+
 #include <stdbool.h>
 #include "utilities/fsl_assert.h"
 #include "bootloader/bl_context.h"
@@ -64,6 +66,7 @@
 #if DEBUG && !DEBUG_PRINT_DISABLE
 static const char *get_peripheral_name(uint32_t peripheralTypeMask);
 #endif
+
 
 #if !BL_FEATURE_TIMEOUT
 static void get_user_application_entry(uint32_t *appEntry, uint32_t *appStack);
@@ -196,6 +199,7 @@ static void jump_to_application(uint32_t applicationAddress, uint32_t stackPoint
     __set_MSP(s_stackPointer);
     __set_PSP(s_stackPointer);
 
+   // while (1); /* SGF REMOVE */
     // Jump to the application.
     farewellBootloader();
     // Dummy fcuntion call, should never go to this fcuntion call
@@ -305,10 +309,7 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
 
 #if !BL_FEATURE_TIMEOUT
     uint64_t lastTicks = 0;    // Value of our last recorded ticks second marker
-    uint64_t timeoutTicks = 0; // The number of ticks we will wait for timeout, 0 means no timeout
-#if BL_FEATURE_POWERDOWN
-    bool shortTimeout = false;
-#endif
+    uint64_t timeoutTicks = 120000000; // SGF Add timeout to make the bootloader Jump to application after some time. 0 means no timeout.
     const uint64_t ticksPerMillisecond = microseconds_convert_to_ticks(1000);
 
     // Get the user application entry point and stack pointer.
@@ -320,7 +321,7 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
     {
         if (is_direct_boot())
         {
-            jump_to_application(applicationAddress, stackPointer);
+            //jump_to_application(applicationAddress, stackPointer);
         }
 
         // Calculate how many ticks we need to wait based on the bootloader config. Check to see if
@@ -339,17 +340,7 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
 
         // save how many ticks we're currently at before the detection loop starts
         lastTicks = microseconds_get_ticks();
-#if BL_FEATURE_POWERDOWN
-        shortTimeout = true;
-#endif
     }
-#if BL_FEATURE_POWERDOWN
-    else
-    {
-        timeoutTicks = BL_DEFAULT_POWERDOWN_TIMEOUT * ticksPerMillisecond;
-        lastTicks = microseconds_get_ticks();
-    }
-#endif
 #endif // !BL_FEATURE_TIMEOUT
 
     // Wait for a peripheral to become active
@@ -367,28 +358,10 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
             // Check if the elapsed time is longer than the timeout.
             if (elapsedTicks >= timeoutTicks)
             {
-#if BL_FEATURE_POWERDOWN
-                if (shortTimeout)
-                {
-#endif
                     // In the case of the typical peripheral timeout, jump to the user application.
-                    jump_to_application(applicationAddress, stackPointer);
-#if BL_FEATURE_POWERDOWN
-                }
-                else
-                {
-                    // Make sure a timeout value has been defined before shutting down.
-                    if (BL_DEFAULT_POWERDOWN_TIMEOUT)
-                    {
-                        // Shut down the bootloader and return to reset-type state prior to low
-                        // power entry
-                        shutdown_cleanup(kShutdownType_Shutdown);
-
-                        // Enter VLLS1 low power mode
-                        enter_vlls1();
-                    }
-                }
-#endif
+            	if (is_application_ready_for_executing(applicationAddress)) {
+            		jump_to_application(applicationAddress, stackPointer);
+            	}
             }
         }
 #endif // !BL_FEATURE_TIMEOUT
