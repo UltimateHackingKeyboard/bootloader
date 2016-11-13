@@ -19,7 +19,6 @@ Key features:
  - If no valid application is present, Bootloader will keep waiting for a communication through the HID USB port.
  - Every command sent to the BL includes a validation process inside the MCU to avoid any error in the communication.
  - The memory area of the BL is protected, so even if the update fails, user just needs to do a Power on Reset (Plug and Unplug the Keyboard) in order to launch the bootloader again.
- 
- Features to be added:
- - Additional layer of security. Bootloader will not allow any kind of update until a PIN sequence has been introduced.
- 
+ - Smart reset behavior: If the MCU has been reset by the user (SW reset or Reset-pin-to-GND short) a timeout will be enabled.
+ If the reset is a Power on Reset (meaning that the user has just connected the Keyboard to the power) it will jump to the
+ UHK application if its present on the memory.
