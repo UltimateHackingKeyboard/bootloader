@@ -321,7 +321,9 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
     {
         if (is_direct_boot())
         {
-            //jump_to_application(applicationAddress, stackPointer);
+	        if (RCM->SRS0 & RCM_SRS0_POR_MASK) {
+	        	jump_to_application(applicationAddress, stackPointer);
+	        }
         }
 
         // Calculate how many ticks we need to wait based on the bootloader config. Check to see if
