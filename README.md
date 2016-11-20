@@ -32,14 +32,15 @@ Lastly, Use KDS to build and upload the firmware to the MCU.
 
 After the above steps, the UHK should enumerate as the bootloader over USB.
 
-You can use the [blhost utility](/bin/Tools/blhost) to upload the [application firmware](https://github.com/UltimateHackingKeyboard/firmware) via the bootloader. Unfortunately, the Linux version of this tool does not seem to work due to the bug.
+Ultimately, you will want to upload the [application firmware](https://github.com/UltimateHackingKeyboard/firmware), but in order to test the bootloader, you can use [uhk-right_binary_blink.srec](uhk-right_binary_blink.srec) which is a properly configured binary that blinks that test LED of the UHK.
+
+You can use the [blhost utility](/bin/Tools/blhost) to upload the application firmware via the bootloader. Unfortunately, the Linux version of this tool does not seem to work due to a bug. You may have to execute the following as root/administrator:
+
+```
+blhost --usb 0x15a2,0x0073 flash-image uhk-right_binary_blink.srec 
+```
 
 Alternatively, you can use the Windows-only [KinetisFlashTool](/bin/Tools/KinetisFlashTool/win) GUI application.
-
-## Test firmwares
-
-To test the bootloader a binary properly configured has been added to the root folder of this repository. This binary is based on the UHK_Right Firmware project. 
-To understand these modifications and apply them to the current version of the UHK Right firmware, follow the procedure in "Adapting UHK Project to KBOOT.docx" (Work in progress...)
 
 ## Key features
 
