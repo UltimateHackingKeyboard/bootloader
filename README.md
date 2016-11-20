@@ -26,6 +26,8 @@ device MK22FN512xxx12
 erase
 ```
 
+When JLink.exe prompts for additional information, choose SWD, and the default speed.
+
 Lastly, Use KDS to build and upload the bootloader firmware to the MCU.
 
 ## Uploading the application firmware via the bootloader
