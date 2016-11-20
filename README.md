@@ -2,7 +2,7 @@
 
 This repository contains the bootloader of the [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/) which is a fully functional port of [KBOOT](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/kinetis-cortex-m-mcus/kinetis-symbols-footprints-and-models/kinetis-bootloader:KBOOT) v2.0. 
 
-The codebase of the bootloader actually resides in [targets/MK22F51212/src](targets/MK22F51212/src).
+The codebase of the bootloader resides in [targets/MK22F51212/src](targets/MK22F51212/src).
 
 ## Building the bootloader
 
@@ -12,14 +12,14 @@ Install [Kinetis Design Studio](http://www.nxp.com/products/software-and-tools/r
 
 First up, let's take care of the physical connections:
 
-* make sure to power the UHK via USB,
-* connect your [SEGGER J-Link debug probe](https://www.segger.com/jlink-debug-probes.html) to USB,
-* connect SEGGER J-Link to one of the SWD ports of the right half of the UHK.
+1. Make sure to power the UHK via USB.
+2. Connect your [SEGGER J-Link debug probe](https://www.segger.com/jlink-debug-probes.html) to USB.
+3. Connect SEGGER J-Link to one of the SWD ports of the right half of the UHK.
 
 Next up, it's wise to explicitly erase the MCU because an application firmware might have already been uploaded via the bootloader, in which case the bootloader may treat the already existing CRC as valid, causing it not to timeout.
 
-* Visit the [J-Link / J-Trace Downloads](https://www.segger.com/downloads/jlink) page. In the *J-Link Software and Documentation Pack* section click on the *Click for downloads*, then download and install the package of your operating system.
-* Start up JLink.exe and type the following:
+1. Visit the [J-Link / J-Trace Downloads](https://www.segger.com/downloads/jlink) page. In the *J-Link Software and Documentation Pack* section click on the *Click for downloads*, then download and install the package of your operating system.
+2. Start up JLink.exe and type the following:
 
 ```
 device MK22FN512xxx12
@@ -34,7 +34,7 @@ After the above steps, the UHK should enumerate as the bootloader over USB.
 
 You can use the [blhost utility](/bin/Tools/blhost) to upload the [application firmware](https://github.com/UltimateHackingKeyboard/firmware) via the bootloader. Unfortunately, the Linux version of this tool does not seem to work due to the bug.
 
-Alternatively, you can use the Windows-only [KinetisFlashTool](/master/bin/Tools/KinetisFlashTool/win) GUI application.
+Alternatively, you can use the Windows-only [KinetisFlashTool](/bin/Tools/KinetisFlashTool/win) GUI application.
 
 ## Test firmwares
 
