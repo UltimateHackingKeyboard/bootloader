@@ -16,7 +16,7 @@ First up, let's take care of the physical connections:
 2. Connect your [SEGGER J-Link debug probe](https://www.segger.com/jlink-debug-probes.html) to USB.
 3. Connect SEGGER J-Link to one of the SWD ports of the right half of the UHK.
 
-Next up, it's wise to erase the MCU because an application firmware might have already been uploaded via the bootloader, in which case the bootloader may treat the already existing CRC as valid, causing it not to timeout.
+Next up, it's wise to erase the MCU because the application firmware might have already been uploaded via the bootloader, in which case the bootloader may treat the already existing CRC as valid, causing it not to timeout.
 
 1. Visit the [J-Link / J-Trace Downloads](https://www.segger.com/downloads/jlink) page. In the *J-Link Software and Documentation Pack* section click on the *Click for downloads*, then download and install the package of your operating system.
 2. Start up JLink.exe and type the following:
@@ -34,9 +34,9 @@ Lastly, Use KDS to build and upload the bootloader firmware to the MCU.
 
 After the above steps, the UHK should enumerate as the bootloader over USB.
 
-Ultimately, you will want to upload the [application firmware](https://github.com/UltimateHackingKeyboard/firmware), but in order to test the bootloader, you can use [uhk-right_binary_blink.srec](uhk-right_binary_blink.srec) which is a properly configured binary that blinks the test LED of the right half of the UHK.
+Ultimately, you will want to upload the actual [application firmware](https://github.com/UltimateHackingKeyboard/firmware), but in order to test the bootloader, you can use [uhk-right_binary_blink.srec](uhk-right_binary_blink.srec) which is a properly configured binary that blinks the test LED of the right half of the UHK.
 
-You can use the [blhost utility](/bin/Tools/blhost) to upload the application firmware via the bootloader. Unfortunately, the Linux version of this tool does not seem to work due to a bug. You may have to execute the following as root/administrator:
+You can use the [blhost utility](/bin/Tools/blhost) to upload the application firmware via the bootloader. Unfortunately, the Linux version of this tool does not seem to work due to a bug, but the Windows version does work. You may have to execute the following as root/administrator:
 
 ```
 blhost --usb 0x15a2,0x0073 reset
