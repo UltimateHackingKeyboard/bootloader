@@ -58,7 +58,9 @@
 #if !defined(BL_CONFIG_USB_MSC)
 #define BL_CONFIG_USB_MSC (0)
 #endif
+#if !defined(BL_TARGET_FLASH)
 #define BL_TARGET_FLASH (1)
+#endif
 //@}
 
 #if !defined(BL_TARGET_FLASH) && !defined(BL_TARGET_RAM)
