@@ -39,7 +39,7 @@ Ultimately, you will want to upload the actual [application firmware](https://gi
 You can use the [blhost utility](/bin/Tools/blhost) to upload the application firmware via the bootloader. Unfortunately, the Linux version of this tool does not seem to work due to a bug, but the Windows version does work. You may have to execute the following as root/administrator:
 
 ```
-blhost --usb 0x15a2,0x0073 reset
+blhost --usb 0x15a2,0x0073 flash-erase-all 0
 blhost --usb 0x15a2,0x0073 flash-image uhk-right_binary_blink.srec
 blhost --usb 0x15a2,0x0073 reset
 ```
