@@ -343,12 +343,25 @@ __isr_vector:
 
     .size    __isr_vector, . - __isr_vector
 
-/* Flash Configuration */ /* SGF TODO add Flash protection for the Bootloader sectors. */
+/* Flash Configuration */
+
+/* FSEC byte: 0x95 - 0b10010101
+   KEYEN = 10, MEEN = 01, FSLACC = 01, FLSEC =01
+   Mass erase enabled and security enabled. 01 has been selected
+   because that way both bits should swap to change the function
+   making it much less likely for an error to happen.         */
+
+/* FPROT0: 0xF8. Each bit marks 1/32 of the flash as protected.
+   512 Kb/32 = 16 Kb. We will protect the first 3 sectors to avoid
+   that the MCU itself could erase the BL.
+   Sector 0-2 = 0x0000 - 0xBFFF.                              */
+
     .section .FlashConfig, "a"
-    .long 0xFFFFFFFF
-    .long 0xFFFFFFFF
-    .long 0xFFFFFFFF
-    .long 0xFFFFFFFE
+    .long 0x01020304      /* First 4 bytes of the Backdoor key. Not used */
+    .long 0x05060708      /* Next 4 bytes of the Backdoor key            */
+    .long 0xFFFFFFF8      /* Program flash protection bytes              */
+    .long 0xFFFFFF95      /* FSEC byte, FOPT byte, Reserved, Reserved    */
+
 
     .text
     .thumb
