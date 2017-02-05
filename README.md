@@ -7,6 +7,7 @@ The codebase of the bootloader resides in [targets/MK22F51212/src](targets/MK22F
 ## Building the bootloader
 
 Install [Kinetis Design Studio](http://www.nxp.com/products/software-and-tools/run-time-software/kinetis-software-and-tools/ides-for-kinetis-mcus/kinetis-design-studio-integrated-development-environment-ide:KDS_IDE) (KDS) and import the project by invoking File -> Import -> General -> Existing Projects into Workspace, select the ` targets/MK22F51212/kds/freedom_bootloader` directory, and click on the Finish button. At this point, you should be able to build the firmware in KDS.
+*WARNING* If you are going to debug the bootloader yourself, it is highly recommended to change the security configuration. See the section "Understanding the bootloader security below before flashing the project to your keyboard."
 
 ## Flashing the bootloader
 
@@ -45,6 +46,41 @@ blhost --usb 0x15a2,0x0073 reset
 ```
 
 Alternatively, you can use the Windows-only [KinetisFlashTool](/bin/Tools/KinetisFlashTool/win) GUI application.
+
+## Understanding the UHK bootloader security.
+
+Kinetis MCU Flash protection has several levels of general security:
+ - Unsecured
+ - Protected
+ - Protected + Mass Erase disabled
+ 
+ For UHK we have selected Protected to allow the user to erase the MCU in case he wants to.
+ This also allows to fix any potential issue in the FW without having to desolder/throw away the device.
+ 
+ Nevertheless, we have also added extra security to prevent any possible failure. Kinetis has another feature called region protection.
+ This is controlled by the 4 registers FPROTx (FPROT0 - FPROT3). Using the following registers you can protect any region of the flash
+ so even the bootloader itself cannot erase it.
+ Since the bootloader is the only way the user has to update the Keyboard configuration, we don't want that it gets accidentally erased, 
+ so we have protected the first 3 sectors (16 KBytes each) of the flash.
+ 
+ But the security goes beyond that. The bootloader itself checks the security status of the flash and refuses to update anything when
+ the flash is protected. To un-protect the flash, a backdoor key is needed. 
+ 
+ Since the bootloader will only be accessible when the user provides an application level customized key, the backdoor key is here just for standard
+ Kinetis security procedures. 
+ 
+ To check the values of all the parameters, you can refer to file "bootloader\target\MK22FN51212\src\startup\gcc\startup_MK22F51212.S" and to the following 
+ chapters of the K22FN512 reference manual for further details:
+ 
+ Chapter 29.1 - Flash configuration Field Description
+ Chapter 29.3 - Flash registers
+ Chapter 29.4.12 - Flash security (Functional description)
+ 
+ Notes:
+ 
+  - Be careful when testing security features of the chip. If you enable the security and disable the Mass Erase, you will lock your device forever.
+  - If you are going to debug the bootloader, disable the security to make it easier for you to control the device.
+  - If you are going to modify the backdoor access key, keep in mind the Little Endian nature of Cortex M memory. (See screenshot "littleEndian_keyStorage")
 
 ## Key features
 
