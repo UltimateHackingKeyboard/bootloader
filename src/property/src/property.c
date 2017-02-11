@@ -138,7 +138,15 @@ status_t bootloader_property_load_user_config(void)
             memset(config, 0xff, sizeof(bootloader_configuration_data_t));
         }
     }
-
+    // SGF - Even if the user has uploaded an application with the wrong bootloader config, we want to avoid
+	  // any possibility to break the bootloader, so we force the clock config and the peripheral config here.
+	  config->tag = kPropertyStoreTag;
+	  config->enabledPeripherals =  0x10;          // [10:10] enabledPeripherals /* SGF Bit 4 corresponds to USB HID */
+	  config->peripheralDetectionTimeoutMs = 5000;
+	  config->clockFlags = 0x00;
+	  config->clockDivider = 0xFF;
+	  config->bootFlags = 0xFE;
+  
     // Update available peripherals based on specific chips
     update_available_peripherals();
 
