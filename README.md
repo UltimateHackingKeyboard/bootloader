@@ -1,12 +1,12 @@
 # Ultimate Hacking Keyboard bootloader
 
-This repository contains the bootloader of the [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/), which is a fully functional port of [KBOOT](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/kinetis-cortex-m-mcus/kinetis-symbols-footprints-and-models/kinetis-bootloader:KBOOT) v2.0. 
+This repository contains the bootloader of the right keyboard half of the [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/), which is a fully functional port of [KBOOT](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/kinetis-cortex-m-mcus/kinetis-symbols-footprints-and-models/kinetis-bootloader:KBOOT) v2.0. 
 
 The actual codebase of the bootloader resides in [targets/MK22F51212/src](targets/MK22F51212/src).
 
 ## Building the bootloader
 
-Install [Kinetis Design Studio](http://www.nxp.com/products/software-and-tools/run-time-software/kinetis-software-and-tools/ides-for-kinetis-mcus/kinetis-design-studio-integrated-development-environment-ide:KDS_IDE) (KDS), and import the project by invoking *File -> Import -> General -> Existing Projects into Workspace*, select the ` targets/MK22F51212/kds/freedom_bootloader` directory, and click on the *Finish* button. At this point, you should be able to build the firmware in KDS.
+Install [Kinetis Design Studio](http://www.nxp.com/products/software-and-tools/run-time-software/kinetis-software-and-tools/ides-for-kinetis-mcus/kinetis-design-studio-integrated-development-environment-ide:KDS_IDE) (KDS), import the project by invoking *File -> Import -> General -> Existing Projects into Workspace*, select the `targets/MK22F51212/kds/freedom_bootloader` directory, and click on the *Finish* button. At this point, you should be able to build the firmware in KDS.
 
 *WARNING:* If you are going to debug the bootloader yourself, it is highly recommended to change the security configuration. See the section "Understanding the bootloader security below before flashing the project to your keyboard."
 
