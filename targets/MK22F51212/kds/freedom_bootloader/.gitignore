@@ -2,3 +2,4 @@
 /debug/
 /release/
 *.launch
+/release-srec/
