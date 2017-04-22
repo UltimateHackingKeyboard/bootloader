@@ -1,0 +1,5 @@
+speed 4000
+device MK22FN512xxx12
+connect
+erase
+exit
