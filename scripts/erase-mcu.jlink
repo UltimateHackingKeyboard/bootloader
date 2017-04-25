@@ -1,5 +1,6 @@
 speed 4000
 device MK22FN512xxx12
+unlock Kinetis
 connect
 erase
 exit
