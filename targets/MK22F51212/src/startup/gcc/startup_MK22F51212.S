@@ -305,8 +305,8 @@ __isr_vector:
         .byte     0x10          // [10:10] enabledPeripherals /* SGF Bit 4 corresponds to USB HID */
         .byte     0xFF          // [11:11] i2cSlaveAddress
         .short    5000          // [12:13] peripheralDetectionTimeoutMs - Timeout in milliseconds for peripheral detection before jumping to application code
-        .short    0xFFFF       // [14:15] usbVid
-        .short    0xFFFF       // [16:17] usbPid
+        .short    0x1D50        // [14:15] usbVid
+        .short    0x6120        // [16:17] usbPid
         .long     0xFFFFFFFF    // [18:1b] usbStringsPointer
         .byte     0x00          // [1c:1c] clockFlags - High Speed and other clock options /* SGF Set to 0 to enable 48 MHz CLK and USB HID */
         .byte     0xFF          // [1d:1d] clockDivider - One's complement of clock divider, zero divider is divide by 1
