@@ -1,5 +1,7 @@
 # Ultimate Hacking Keyboard bootloader
 
+[![Build Status](https://travis-ci.org/UltimateHackingKeyboard/bootloader.svg?branch=master)](https://travis-ci.org/UltimateHackingKeyboard/bootloader)
+
 This repository contains the bootloader of the right keyboard half of the [Ultimate Hacking Keyboard](https://ultimatehackingkeyboard.com/), which is a fully functional port of [KBOOT](http://www.nxp.com/products/microcontrollers-and-processors/arm-processors/kinetis-cortex-m-mcus/kinetis-symbols-footprints-and-models/kinetis-bootloader:KBOOT) v2.0. 
 
 The actual codebase of the bootloader resides in [targets/MK22F51212/src](targets/MK22F51212/src).
