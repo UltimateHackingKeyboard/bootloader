@@ -44,6 +44,7 @@
 #include "property/property.h"
 #include "utilities/vector_table_info.h"
 #include "utilities/fsl_rtos_abstraction.h"
+#include "bootloader/wormhole.h"
 #if BL_FEATURE_CRC_CHECK
 #include "bootloader/bl_app_crc_check.h"
 #endif
@@ -321,7 +322,7 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
     {
         if (is_direct_boot())
         {
-	        if (RCM->SRS0 & RCM_SRS0_POR_MASK) {
+	        if (RCM->SRS0 & RCM_SRS0_POR_MASK || (IS_WORMHOLE_OPEN && Wormhole.enumerationMode != EnumerationMode_Bootloader)) {
 	        	jump_to_application(applicationAddress, stackPointer);
 	        }
         }

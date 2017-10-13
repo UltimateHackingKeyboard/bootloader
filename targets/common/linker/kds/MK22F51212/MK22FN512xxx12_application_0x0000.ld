@@ -61,7 +61,8 @@ MEMORY
   m_interrupts          (RX)  : ORIGIN = 0x00000000, LENGTH = 0x00000400
   m_flash_config        (RX)  : ORIGIN = 0x00000400, LENGTH = 0x00000010
   m_text                (RX)  : ORIGIN = 0x00000410, LENGTH = 0x0007FBF0
-  m_data                (RW)  : ORIGIN = 0x1FFF0000, LENGTH = 0x00020000
+  m_data                (RW)  : ORIGIN = 0x1FFF0000, LENGTH = 0x0001FF00
+  m_noinit              (RW)  : ORIGIN = 0x2000FF00, LENGTH = 0x00000100
 }
 
 /* Define output sections */
@@ -255,5 +256,16 @@ SECTIONS
   .ARM.attributes 0 : { *(.ARM.attributes) }
 
   ASSERT(__StackLimit >= __HeapLimit, "region m_data_2 overflowed with stack and heap")
+
+  .noinit (NOLOAD):
+  {
+    . = ALIGN(4);
+    _noinit = .;
+
+    *(.noinit .noinit.*)
+
+    . = ALIGN(4) ;
+    _end_noinit = .;
+  } > m_noinit
 }
 

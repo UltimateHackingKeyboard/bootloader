@@ -216,6 +216,11 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>src/bootloader/wormhole.h</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/src/bootloader/wormhole.h</locationURI>
+		</link>
+		<link>
 			<name>src/crc/crc16.h</name>
 			<type>1</type>
 			<locationURI>PARENT-4-PROJECT_LOC/src/crc/crc16.h</locationURI>
@@ -444,6 +449,11 @@
 			<name>src/bootloader/src/usb_hid_msc_peripheral_interface.c</name>
 			<type>1</type>
 			<locationURI>PARENT-4-PROJECT_LOC/src/bootloader/src/usb_hid_msc_peripheral_interface.c</locationURI>
+		</link>
+		<link>
+			<name>src/bootloader/src/wormhole.c</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/src/bootloader/src/wormhole.c</locationURI>
 		</link>
 		<link>
 			<name>src/crc/src/crc16.c</name>
