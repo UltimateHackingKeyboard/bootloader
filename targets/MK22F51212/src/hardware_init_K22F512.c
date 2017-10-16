@@ -138,6 +138,7 @@ uint32_t get_uart_clock(uint32_t instance)
 
 bool is_boot_pin_asserted(void)
 {
+    return false;
 #ifdef BL_TARGET_FLASH
     // Initialize boot pin for GPIO
     BOOT_PIN_PORT->PCR[BOOT_PIN_NUMBER] |= PORT_PCR_MUX(BOOT_PIN_ALT_MODE);
