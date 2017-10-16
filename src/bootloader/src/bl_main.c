@@ -339,6 +339,15 @@ static peripheral_descriptor_t const *get_active_peripheral(void)
         {
             milliseconds = BL_DEFAULT_PERIPHERAL_DETECT_TIMEOUT;
         }
+
+        if (IS_WORMHOLE_OPEN) {
+            milliseconds = Wormhole.timeoutMs;
+        }
+
+        if (milliseconds < BL_MIN_PERIPHERAL_DETECT_TIMEOUT) {
+            milliseconds = BL_MIN_PERIPHERAL_DETECT_TIMEOUT;
+        }
+
         timeoutTicks = milliseconds * ticksPerMillisecond;
 
         // save how many ticks we're currently at before the detection loop starts

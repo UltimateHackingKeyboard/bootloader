@@ -22,7 +22,7 @@
     typedef struct {
       uint64_t magicNumber;
       uint8_t enumerationMode;
-      uint16_t timeoutMs;
+      uint32_t timeoutMs;
     } wormhole_t;
 
 // Variables:
