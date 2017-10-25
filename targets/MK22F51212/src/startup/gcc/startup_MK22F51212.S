@@ -360,7 +360,7 @@ __isr_vector:
     .long 0x01020304      /* First 4 bytes of the Backdoor key. Not used */
     .long 0x05060708      /* Next 4 bytes of the Backdoor key            */
     .long 0xFFFFFFF8      /* Program flash protection bytes              */
-    .long 0xFFFFFF95      /* FSEC byte, FOPT byte, Reserved, Reserved    */
+    .long 0xFFFFFC95      /* FSEC byte, FOPT byte, Reserved, Reserved    */
 
 
     .text
