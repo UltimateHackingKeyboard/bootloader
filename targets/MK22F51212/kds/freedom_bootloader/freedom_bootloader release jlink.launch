@@ -70,7 +70,7 @@
 <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="release/freedom_bootloader.elf"/>
 <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="freedom_bootloader"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1939339834"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
 <listEntry value="/freedom_bootloader"/>
 </listAttribute>
