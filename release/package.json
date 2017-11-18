@@ -1,0 +1,17 @@
+{
+  "name": "uhk-bootloader",
+  "homepage": "https://UltimateHackingKeyboard.com",
+  "description": "The bootloader of the Ultimate Hacking Keyboard",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/UltimateHackingKeyboard/bootloader.git"
+  },
+  "author": "Ultimate Gadget Laboratories",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/UltimateHackingKeyboard/bootloader/issues"
+  },
+  "dependencies": {
+    "shelljs": "^0.7.8"
+  }
+}
