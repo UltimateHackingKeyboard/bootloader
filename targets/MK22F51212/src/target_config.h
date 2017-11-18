@@ -62,7 +62,7 @@ enum _target_version_constants
     kTarget_Version_Name = 'T',
     kTarget_Version_Major = 1,
     kTarget_Version_Minor = 0,
-    kTarget_Version_Bugfix = 0
+    kTarget_Version_Bugfix = 0,
 };
 
 #endif // __TARGET_CONFIG_H__
