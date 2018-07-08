@@ -38,8 +38,8 @@ INCLUDES += $(BOOT_ROOT)/validation/blhost/src \
 			$(BOOT_ROOT)/src/drivers/common \
 			$(BOOT_ROOT)/src/bm_usb
 
-CXXFLAGS := -D LINUX -D BOOTLOADER_HOST -std=c++11
-CFLAGS   := -std=c99 -D LINUX -D BOOTLOADER_HOST -D _GNU_SOURCE
+CXXFLAGS := -D LINUX -D BOOTLOADER_HOST -std=c++11 -march=x86-64 -mtune=generic 
+CFLAGS   := -std=c99 -D LINUX -D BOOTLOADER_HOST -D _GNU_SOURCE -mtune=generic -march=x86-64
 LD       := g++
 
 SOURCES := $(BOOT_ROOT)/validation/blhost/src/blhost.cpp \
@@ -199,7 +199,7 @@ $(MAKE_TARGET): $(OBJECTS_ALL)
 	@$(call printmessage,link,Linking, $(APP_NAME))
 	$(at)$(LD) $(LDFLAGS) \
           $(OBJECTS_ALL) \
-          -lc -lstdc++ -lm -ludev \
+          -static -lc -lstdc++ -lm -ludev -lrt \
           -o $@
 	@echo "Output binary:" ; echo "  $(APP_NAME)"
 
