@@ -1,7 +1,7 @@
 # Contributor Agreement
 ## Individual Contributor Exclusive License Agreement version 1.0.0
 
-Thank you for your interest in contributing to Ultimate Gadget Laboratories Kft.'s Ultimate Hacking Keyboard ("We" or "Us").
+Thank you for your interest in contributing to Ultimate Gadget Laboratories Kft.'s Ultimate Hacking Keyboard bootloader ("We" or "Us").
 
 The purpose of this contributor agreement ("Agreement") is to clarify and document the rights granted by contributors to Us.
 
