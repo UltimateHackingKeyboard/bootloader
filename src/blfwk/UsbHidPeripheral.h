@@ -51,7 +51,7 @@ public:
     enum _usbhid_contants
     {
         kDefault_Vid = 0x1D50, //!< UHK VID
-        kDefault_Pid = 0x6120, //!< UHK PID
+        kDefault_Pid = 0x6123, //!< UHK PID
     };
 
 public:

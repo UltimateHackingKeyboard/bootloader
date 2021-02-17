@@ -180,7 +180,7 @@ uint8_t g_device_descriptor[USB_DEVICE_DESCRIPTOR_LENGTH] = {
     /* Vendor ID */
     0x50, 0x1D, /* UHK VID*/
     /* Product ID */
-    0x20, 0x61, /* UHK PID */
+    0x23, 0x61, /* UHK PID */
     /* BCD Device version */
     0x02, 0x00,
     /* Manufacturer string index */
